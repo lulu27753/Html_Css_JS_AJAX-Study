@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>20160722我的学习记录</title>
+ <style type="text/css">
+ div#radius
+ {border:2px solid #a1a1a1;
+ text-align:center;
+ margin:10px;
+ padding::10px 40px;
+ background:#999999;
+ width:350px;
+ border-radius:25px;
+ float:left}
+ h1{color:red}
+ p{color:#336633}
+ </style>
+ <link rel="stylesheet" type="text/css" href=".css" />
+ <meta name="keywords" content="HTML,CSS,Javascript" />
+ <base target="_blank" /><!--base为页面上所有链接规定默认地址或默认目标 --><br />
+<script type="text/javascript">document.write("Hello World!")</script><!--JS最常用于图片操作、表单验证及内容动态更新-->
+</head>
+
+<body style="margin:20px;">
+<div><h1 align="center">This is a heading</h1>
+<h2>This is a heading</h2>
+<h3 align="right">This is a heading  </h3>
+<!--仅把标题标签用于标题文本，使用CSS产生粗体文本-->
+</div>
+<hr/><!--水平线用于分隔内容-->
+<div><p>This is my  first paragraph.<br/>This is my scecond paragraph</p><!--浏览器会自动地在标题及段落（块级元素）前后添加一个额外的空行-->
+<p>This is my  first paragraph.This is my scecond paragraph</p><!--段落中的行数依赖于浏览器窗口的大小，如果调节浏览器窗口的大小，将改变段落中的行数-->
+</div>
+<hr/>
+<div><a href="http://sc.jb51.net/Design/">This is a link.</a>
+<a href="http://www.w3school.com.cn" style="text-decoration:none">This is a link.</a><br/>
+<a href="http://www.w3school.com.cn"><img src="file:///H|/我的资料/3、素材/素材/1、图片库/背景/50张1080P炫酷背景素材/绚烂，纹理/7383-100.jpg" width="108" height="192" /></a>
+</div><hr/>
+<div>
+<!--基于内容的样式和物理样式.基于内容的样式赋予含义，非格式化，对于自动处理来说非常重要，计算机并不关心文档的外观如何。>
+<!--文本格式化-->
+<p><b>This text is bold.	</b><strong>This text is strong.</strong><!--加粗只是强调的默认形式，强调还可以有其他形式，如下划线、字体加大、红色等表现形式-->
+<br/>一打有<del>二十</del><ins>十二</ins>件
+<br/>This text caontains subscript<sub>@</sub> superscript<sup>@</sup>
+</p>
+<!--基于内容的样式-->
+<p>
+	The <abbr title="People's Republic of China">PRC</abbr> was foundedin 1949.&nbsp;<acronym title="Wold Wide Web">WWW</acronym><!--对缩写进行标记，为浏览器、拼写检查和搜索引擎提供有用的信息;title用于在鼠标指针移动到元素上时显示出缩写的完整版本-->
+
+</p>
+<hr/>
+<!--pre标签定义预格式文本。保留空格和换行符，文本呈现等宽字体，很适合显示计算机代码，请使用”符号实体“来表示特殊字符-->
+<pre>
+for (int i = 0; i < 100; i++)
+{
+    Console.WriteLine(i);
+}
+</pre>
+<hr/>
+<!--改变文字方向:浏览器支持bdo(bi-directional override)，下面的这行文字将从右向左输出(rtl)-->
+<bdo dir="rtl">Here is some Hebrew text</bdo>
+</div>
+<div>
+<form action=".asp" method="get">
+<fieldset><legend>为什么显示的是submit，而不是”提交“</legend>
+<br />
+Firstname:<input type="text" name="firstname" />
+Last name:<input type="text" name="last name" />
+<br />
+<input type="radio" name="sex" value="male" />male
+<input type="radio" name="sex" value="female" />female
+<br />
+<input type="checkbox" name="cat" />cat
+<input type="checkbox" name="dog" />dog
+<input type="checkbox" name="horse" />horse
+<br /><textarea>The cat is playing in the guarden</textarea>
+<input type="submit" name="提交" value="提交"/><br />
+<p><input type="button" name="如果你幸福你就点点我" value="如果你幸福你就点点我" /></p>
+</fieldset></form>
+</div>
+<div><form>
+<select name="cars">
+<optgroup label="volvo">
+<option value="volvo1">volvo1</option>
+<option value="volvo2">volvo2</option>
+<option value="volvo3">volvo3</option>
+</optgroup>
+<optgroup label="car"><option value="car1" selected="selected">car1</option>
+<option value="car2">car2</option>
+<option value="car3">car3</option>
+</optgroup>
+</select></form>
+</div>
+<div id="radius">向元素添加圆角</div>
+</body>
+</html>

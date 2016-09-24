@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+	<!-- base href="http://jijiangshe.com/" -->
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="技匠社是为程序员与设计师交流资源干货,互相分享学习的一个在线社区">
+    <meta name="keywords" content="Swift,JAVA,iOS 9,开发,设计,学习,资源,干货,教程,书籍,Android,安卓,前端,后端">
+
+	<title>技匠社 | 资源分享 作品发布 创新合作</title>
+
+	<!-- <meta name="Content-Security-Policy" content="default-src 'self' *.jijiangshe.com"> -->
+	<!-- reponsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- main stylesheet -->
+	<link rel="stylesheet" href="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/style.css">
+	
+	<!-- dialog stylesheet -->
+	<link rel="stylesheet" href="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/dialog.css">
+	<!-- responsive stylesheet -->
+	<link rel="stylesheet" href="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/responsive.css">
+
+	<link rel="alternate" type="application/rss+xml" title="技匠社资源RSS" href="http://rss.jijiangshe.com/resources.xml">
+	<link rel="alternate" type="application/rss+xml" title="技匠社设计资源RSS" href="http://rss.jijiangshe.com/design-resources.xml">
+	<link rel="alternate" type="application/rss+xml" title="技匠社开发资源RSS" href="http://rss.jijiangshe.com/development-resources.xml">
+	<link rel="alternate" type="application/rss+xml" title="技匠社移动开发资源RSS" href="http://rss.jijiangshe.com/mobile-resources.xml">
+	<link rel="alternate" type="application/rss+xml" title="技匠社工具资源RSS" href="http://rss.jijiangshe.com/tools-resources.xml">
+
+	<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/hm.js"></script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?32b9e69bb105cdb816b69296f31dc8c5";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+
+
+</head>
+<body class="ng-scope" ng-app="techmaskApp" ng-controller="AppCtrl">
+
+<!-- .preloader -->
+<!-- <div class="preloader"></div> -->
+<!-- /.preloader -->
+
+<div class="system-message">
+	<div>
+		<h2></h2>
+		<p></p>
+	</div>
+</div>
+
+<div class="body-container">
+	
+
+	<!-- .hidden-bar -->
+	<section class="hidden-bar right-align anim-5">
+		<div class="hidden-bar-closer">
+			<button class="btn">
+				<i class="fa fa-close"></i>
+			</button>
+		</div>
+		<!-- .hidden-bar-wrapper -->
+		<div class="hidden-bar-wrapper mCustomScrollbar _mCS_1 mCS_no_scrollbar"><div tabindex="0" id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+
+			<!-- .logo -->
+			<div class="logo text-center">
+				<a href="http://jijiangshe.com/" ng-href="/">
+					<img class="mCS_img_loaded" src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/footer-logo.png" alt="">
+				</a>			
+			</div><!-- /.logo -->
+			<!-- .main-menu -->
+			<div class="main-menu text-center">
+				<ul class="navigation">
+					<li>
+						<a ng-click="toPage('/')">主页</a>
+					</li>
+					<li>
+						<a ng-click="toPage('/resources/all')">资源分享</a>
+					</li>
+					<li>
+						<a ng-click="toPage('/crafts')">作品发布</a>
+					</li>
+					<li>
+						<a href="http://www.jianshu.com/users/3313b20a4e25/latest_articles" target="_blank">技匠志</a>
+					</li>
+					<li>
+						<a ng-click="toPage('/faq')">关于技匠社</a>
+					</li>
+					<!-- ngIf: $root.authenticated --><li style="" class="ng-scope" ng-if="$root.authenticated">
+						<a ng-click="toPage('/profile/'+$root.theUser.id)">我</a>
+					</li><!-- end ngIf: $root.authenticated -->
+					<!-- ngIf: !$root.authenticated -->
+					<!-- ngIf: $root.authenticated --><li class="ng-scope" ng-if="$root.authenticated">
+						<a ng-click="toLogout()">退出登录</a>
+					</li><!-- end ngIf: $root.authenticated -->
+				</ul><!-- /.navigation -->
+			</div><!-- /.main-menu -->
+			
+			<div class="social-icons">
+				<ul>
+					<li><a href="javascript:showWechatCode();"><i class="fa fa-wechat"></i></a></li>
+					<li><a href="http://weibo.com/u/5886117672/home" target="_blank"><i class="fa fa-weibo"></i></a></li>
+					<li><a href="https://github.com/ji-jiang" target="_blank"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://www.pinterest.com/techmask/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+				</ul>
+			</div>
+
+		</div><div style="display: none;" id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_vertical"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;" oncontextmenu="return false;"><div style="line-height: 30px;" class="mCSB_dragger_bar"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div><!-- /.hidden-bar-wrapper -->
+	</section><!-- /.hidden-bar -->
+
+
+
+
+	<!--.header-v2 -->
+	<header style="" class="stricky anim-5 header-v2" ng-class="{true:'header-v2 ',false:'inner-header'}[$root.isHomePage]">
+		<div style="" class="container-fluid" ng-class="{true:'container-fluid ',false:'container'}[$root.isHomePage]">
+			<!-- .logo -->
+			<div class="logo pull-left anim-5-all">
+				<a href="http://jijiangshe.com/index.html">
+					<!-- <img src="http://static.jijiangshe.com/img/resources/logo2.png" alt="Setup Folio" ng-show="$root.isHomePage">
+					<img src="http://static.jijiangshe.com/img/resources/footer-logo.png" alt="Setup Folio" ng-hide="$root.isHomePage"> -->
+					<div class="logo-img"></div>
+				</a>
+			</div><!-- /.logo -->
+			<!-- .main-menu-wrap -->
+			<nav class="main-menu-wrap pull-right anim-5-all">
+				<!-- .nav-holder -->
+				<div class="nav-holder">
+					<ul class="navigation">
+						<li>
+							<a ng-click="toPage('/')">主页</a>
+						</li>
+						<li>
+							<a ng-click="toPage('/resources/all')">资源分享</a>
+						</li>
+						<li>
+							<a ng-click="toPage('/crafts')">作品发布</a>
+						</li>
+						<li>
+							<a href="http://www.jianshu.com/users/3313b20a4e25/latest_articles" target="_blank">技匠志</a>
+						</li>
+						<li>
+							<a ng-click="toPage('/faq')">关于技匠社</a>
+						</li>
+						<!-- ngIf: $root.authenticated --><li style="" class="ng-scope" ng-if="$root.authenticated">
+							<a ng-click="toPage('/profile/'+$root.theUser.id)">我</a>
+						</li><!-- end ngIf: $root.authenticated -->
+					</ul><!-- /.navigation -->
+				</div><!-- /.nav-holder -->
+				<!-- .nav-toggler -->
+				<div class="nav-toggler">
+					<button class="hidden-bar-opener"><i class="fa fa-bars"></i></button>
+				</div><!-- /.nav-toggler -->
+			</nav><!-- /.main-menu-wrap -->
+		</div>
+	</header><!-- /.header-v2-->
+
+
+
+	<!-- ngView:  --><div style="" class="ng-scope" ng-view="" id="main-view"><section style="height: 1024px;" class="bg-slider banner-two text-center ng-scope vegas-container" bgslider=""><div style="transition: all 1000ms ease 0s;" class="vegas-slide vegas-transition-fade2 vegas-transition-fade2-in"><div style="background-image: url(&quot;http://static.jijiangshe.com/img/slides/bg.jpg&quot;); background-color: transparent; background-position: center center; background-size: cover;" class="vegas-slide-inner"></div></div><div style="overflow: visible; padding: 0px;" class="vegas-wrapper"><div class="container">
+		<div class="dt">
+			<div class="dtc">
+				<div class="title">我们
+				<div class="type-wrap">
+                	<div style="display: none;" class="typed-strings">
+                    	<p>都是技匠</p>
+                        <p>崇尚工匠精神</p>
+                        <p>互相信任</p>
+                        <p>热爱分享</p>
+                    </div>
+                    <span class="typed">热爱分享</span><span class="typed-cursor">|</span>
+                </div>
+
+				</div>
+				<p>我们是一群追求极致精神和精湛技术的时代技匠，我们以专业、专注的品格去创造最优秀的产品。<br>
+				我们聚集在了一起成立技匠社，希望通过分享和传播帮助每一位成员获得成长。</p>
+				
+				<a style="display: none;" class="thm-btn login" ng-click="viewLogin()">账号登录</a>   
+				<a style="display: none;" class="thm-btn clrd register" ng-click="viewRegister()">成为一员</a> 
+				<a class="thm-btn logout" ng-click="toLogout()">退出登录</a> 
+			</div>
+		</div>
+	</div></div></section>
+
+<!-- .portfolio-section -->
+<section class="portfolio-section section-padding ng-scope">
+	<div class="container-fluid">
+		<!-- .sec-title -->
+		<div class="sec-title text-center">
+			<h1>我们收集并分享的资源</h1>
+			<span class="tag-line">来自技匠社成员的分享</span>
+			<span class="border"></span>
+		</div><!-- /.sec-title -->
+		<!-- .portfolio-content-wrap -->
+		<div class="portfolio-content-wrap ">
+			<!-- .portfolio-filter -->
+			<ul class="portfolio-filter text-center">
+				<a href="http://jijiangshe.com/resources/all">
+					<li href="/resources/all" class="portfolio-sorter active" ng-href="/resources/all">
+						<span>全部</span>
+					</li>
+				</a>
+				<a href="http://jijiangshe.com/resources/design">
+					<li class="portfolio-sorter">
+						<span>设计</span>
+					</li>
+				</a>
+				<a href="http://jijiangshe.com/resources/development">
+					<li data-filter=".photography">
+						<span>开发</span>
+					</li>
+				</a>
+				<a href="http://jijiangshe.com/resources/mobile">
+					<li data-filter=".print-art">
+						<span>移动</span>
+					</li>
+				</a>
+				<a href="http://jijiangshe.com/resources/tools">
+					<li data-filter=".branding">
+						<span>工具</span>
+					</li>
+				</a>
+				<a href="http://jijiangshe.com/resources/craft">
+					<li data-filter=".branding">
+						<span>作品</span>
+					</li>
+				</a>
+			</ul><!-- /.portfolio-filter -->
+			<!-- .portfolio-content -->
+			<div class="portfolio-content image-gallery" data-filter-class="portfolio-sorter">
+				<!-- .single-portfolio -->
+				<div class="single-portfolio photography print-art span-3 mix">
+					<a href="http://jijiangshe.com/resources/mobile/ios" ng-href="/resources/mobile/ios">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/1.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/mobile/ios" ng-href="/resources/mobile/ios">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/mobile/ios" ng-href="/resources/mobile/ios">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/mobile/ios" ng-href="/resources/mobile/ios">
+									</a><a href="http://jijiangshe.com/resources/mobile/ios" ng-href="/resources/mobile/ios">
+										<h4>移动开发</h4>
+										<p>iOS</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+					
+					
+				</div><!-- .single-portfolio -->
+				<!-- .single-portfolio -->
+				<div class="single-portfolio photography print-art span-3 mix">
+					<a href="http://jijiangshe.com/resources/mobile/android" ng-href="/resources/mobile/android">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/2.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/mobile/android" ng-href="/resources/mobile/android">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/mobile/android" ng-href="/resources/mobile/android">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/mobile/android" ng-href="/resources/mobile/android">
+									</a><a href="http://jijiangshe.com/resources/mobile/android" ng-href="/resources/mobile/android">
+										<h4>移动开发</h4>
+										<p>Android</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+					
+				</div><!-- /.single-portfolio -->
+				<!-- .single-portfolio -->
+				<div class="single-portfolio branding graphic-design print-art span-3 mix">
+					<a href="http://jijiangshe.com/resources/design/icon" ng-href="/resources/design/icon">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/3_002.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/design/icon" ng-href="/resources/design/icon">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/design/icon" ng-href="/resources/design/icon">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/design/icon" ng-href="/resources/design/icon">
+									</a><a href="http://jijiangshe.com/resources/design/icon" ng-href="/resources/design/icon">
+										<h4>设计资源</h4>
+										<p>图标</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+									
+				</div><!-- /.single-portfolio -->
+				<!-- .single-portfolio -->
+				<div class="single-portfolio graphic-design photography span-3 mix">
+					<a href="http://jijiangshe.com/resources/design/animation" ng-href="/resources/design/animation">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/4_003.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/design/animation" ng-href="/resources/design/animation">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/design/animation" ng-href="/resources/design/animation">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/design/animation" ng-href="/resources/design/animation">
+									</a><a href="http://jijiangshe.com/resources/design/animation" ng-href="/resources/design/animation">
+										<h4>设计资源</h4>
+										<p>动效</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+									
+				</div><!-- /.single-portfolio -->
+				<!-- .single-portfolio -->
+				<div class="single-portfolio branding graphic-design print-art span-3 mix">
+					<a href="http://jijiangshe.com/resources/design/web_template" ng-href="/resources/design/web_template">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/5_002.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/design/web_template" ng-href="/resources/design/web_template">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/design/web_template" ng-href="/resources/design/web_template">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/design/web_template" ng-href="/resources/design/web_template">
+									</a><a href="http://jijiangshe.com/resources/design/web_template" ng-href="/resources/design/web_template">
+										<h4>设计资源</h4>
+										<p>模板</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+									
+				</div><!-- /.single-portfolio -->
+				<!-- .single-portfolio -->
+				<div class="single-portfolio branding photography span-3 mix">
+					<a href="http://jijiangshe.com/resources/development/backend" ng-href="/resources/development/backend">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/6.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/development/backend" ng-href="/resources/development/backend">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/development/backend" ng-href="/resources/development/backend">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/development/backend" ng-href="/resources/development/backend">
+									</a><a href="http://jijiangshe.com/resources/development/backend" ng-href="/resources/development/backend">
+										<h4>开发资源</h4>
+										<p>后端开发</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+									
+				</div><!-- /.single-portfolio -->
+				<!-- .single-portfolio -->
+				<div class="single-portfolio graphic-design photography span-3 mix">
+					<a href="http://jijiangshe.com/resources/development/frontend" ng-href="/resources/development/frontend">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/7.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/development/frontend" ng-href="/resources/development/frontend">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/development/frontend" ng-href="/resources/development/frontend">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/development/frontend" ng-href="/resources/development/frontend">
+									</a><a href="http://jijiangshe.com/resources/development/frontend" ng-href="/resources/development/frontend">
+										<h4>开发资源</h4>
+										<p>前端开发</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+										
+				</div><!-- /.single-portfolio -->
+				<!-- .single-portfolio -->
+				<div class="single-portfolio branding graphic-design photography span-3 mix">
+					<a href="http://jijiangshe.com/resources/design/tutorial" ng-href="/resources/design/tutorial">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/8.jpg">
+						</a><div class="overlay"><a href="http://jijiangshe.com/resources/design/tutorial" ng-href="/resources/design/tutorial">
+							<div class="image-view">
+							</div>
+							</a><div class="item-title"><a href="http://jijiangshe.com/resources/design/tutorial" ng-href="/resources/design/tutorial">
+								</a><div class="box"><a href="http://jijiangshe.com/resources/design/tutorial" ng-href="/resources/design/tutorial">
+									</a><a href="http://jijiangshe.com/resources/design/tutorial" ng-href="/resources/design/tutorial">
+										<h4>设计资源</h4>
+										<p>教程</p>	
+									</a>	
+								</div>
+							</div>
+						</div>
+										
+				</div><!-- /.single-portfolio -->
+				
+			</div><!-- /.portfolio-content -->
+		</div><!-- /.portfolio-content-wrap -->
+	</div>
+</section><!-- /.portfolio-section -->
+
+
+<!-- .fact-counter -->
+<section class="fact-counter ng-scope" countnumberchanger="">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<!-- .single-fact-counter -->
+				<div class="single-fact-counter">
+					<span class="border"></span>
+					<h3 class="sF-counter" data-from="0" data-to="5137" data-speed="2000" data-refresh-interval="50">5137</h3>
+					<p>技匠社社员</p>
+				</div><!-- .single-fact-counter -->
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<!-- .single-fact-counter -->
+				<div class="single-fact-counter">
+					<span class="border"></span>
+					<h3 class="sF-counter" data-from="0" data-to="12682" data-speed="2000" data-refresh-interval="50">12682</h3>
+					<p>博客文章喜欢数</p>
+				</div><!-- .single-fact-counter -->
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<!-- .single-fact-counter -->
+				<div class="single-fact-counter">
+					<span class="border"></span>
+					<h3 class="sF-counter" data-from="0" data-to="7480" data-speed="2000" data-refresh-interval="50">7480</h3>
+					<p>博客粉丝数</p>
+				</div><!-- .single-fact-counter -->
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<!-- .single-fact-counter -->
+				<div class="single-fact-counter">
+					<span class="border"></span>
+					<h3 class="sF-counter" data-from="0" data-to="3217" data-speed="2000" data-refresh-interval="50">3217</h3>
+					<p>资源总下载数</p>
+				</div><!-- .single-fact-counter -->
+			</div>
+		</div>
+	</div>
+</section><!-- /.fact-counter -->
+
+
+<!-- .testimonials -->
+<section class="testimonials section-padding has-texture ng-scope">
+	<div class="container">
+		<!-- .sec-title -->
+		<div class="sec-title text-center">
+			<h1>听技匠人的声音</h1>
+			<span class="tag-line">来自技匠社、微信群以及技术博客中的用户留言</span>
+			<span class="border"></span>
+		</div><!-- /.sec-title -->
+		<div class="testimonials-wrap row">
+			<div class="owl-carousel owl-theme owl-loaded">
+				<!-- ngRepeat: testimonial in testimonials --><!-- end ngRepeat: testimonial in testimonials --><!-- end ngRepeat: testimonial in testimonials --><!-- end ngRepeat: testimonial in testimonials --><!-- end ngRepeat: testimonial in testimonials --><!-- end ngRepeat: testimonial in testimonials --><!-- end ngRepeat: testimonial in testimonials -->
+			<div class="owl-stage-outer"><div style="transform: translate3d(-1455px, 0px, 0px); transition: all 0.25s ease 0s; width: 4850px;" class="owl-stage"><div style="width: 485px; margin-right: 0px;" class="owl-item cloned"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								技匠的一些关于程序员的文章，比如《给年轻程序员的10点启示》等等，给了我很多启发，可以让我避免走很多弯路。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/5.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/5.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">颜宏</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">Application Developer@IBM</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item cloned"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								我参与了技匠社的开发，跟着匠叔一起开发，学到了很多东西，这让我对技术更有兴趣也更有信心了。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/6_002.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/6.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">吴绍康</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">开发工程师@平安银行研发部</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								技匠的文章涉猎非常广，从设计师到程序员，而且每一篇文章都值得细读，我几乎每周都会关注他的心文章。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/1_003.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/1.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">杨昕霖</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">产品设计师@稀土掘金</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item active"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								看得出技匠社里的那些资源都是精心挑选的，我非常喜欢，并期待能在这里看到更多优秀的资源。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/2.png" ng-src="http://static.jijiangshe.com/img/testimonials/2.png" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">Ella Wang</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">UI设计师@Freelancer</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item active"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								我们对技匠的文章很感兴趣，希望他早日能将这些优秀文章写成一本书，让更多年轻朋友们能够读到。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/3.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/3.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">魏江江（网名：老猫一个）</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">图书事业部主任@清华大学出版社</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								我很喜欢技匠写的【设计谈】系列文章，虽然都很基础，但对我这样的初学者正确地理解以及学习设计非常有帮助。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/4.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/4.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">梁超</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">高级运营@七牛科技</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								技匠的一些关于程序员的文章，比如《给年轻程序员的10点启示》等等，给了我很多启发，可以让我避免走很多弯路。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/5.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/5.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">颜宏</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">Application Developer@IBM</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								我参与了技匠社的开发，跟着匠叔一起开发，学到了很多东西，这让我对技术更有兴趣也更有信心了。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/6_002.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/6.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">吴绍康</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">开发工程师@平安银行研发部</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item cloned"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								技匠的文章涉猎非常广，从设计师到程序员，而且每一篇文章都值得细读，我几乎每周都会关注他的心文章。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/1_003.jpg" ng-src="http://static.jijiangshe.com/img/testimonials/1.jpg" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">杨昕霖</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">产品设计师@稀土掘金</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div><div style="width: 485px; margin-right: 0px;" class="owl-item cloned"><div class="item ng-scope" ng-repeat="testimonial in testimonials" testimonials="">
+					<!-- .single-testimonials -->
+					<div class="single-testimonials">
+						<!-- .text-box -->
+						<div class="text-box">
+							<p class="ng-binding">
+								<span class="qoute">“</span>
+								看得出技匠社里的那些资源都是精心挑选的，我非常喜欢，并期待能在这里看到更多优秀的资源。
+							</p>
+						</div><!-- /.text-box -->
+						<!-- .client-box -->
+						<div class="client-box">
+							<!-- .img-box -->
+							<div class="img-box">
+								<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/2.png" ng-src="http://static.jijiangshe.com/img/testimonials/2.png" alt="">
+							</div><!-- /.img-box -->
+							<!-- .info-box -->
+							<div class="info-box">
+								<h4 class="ng-binding" ng-bind="testimonial.name">Ella Wang</h4>
+								<span class="ng-binding" ng-bind="testimonial.title">UI设计师@Freelancer</span>
+							</div><!-- /.info-box -->
+						</div><!-- /.client-box -->
+					</div><!-- /.single-testimonials -->
+				</div></div></div></div><div class="owl-controls"><div class="owl-nav"><div style="display: none;" class="owl-prev">prev</div><div style="display: none;" class="owl-next">next</div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div></div>
+
+		</div>
+	</div>
+</section><!-- /.testimonials -->
+
+
+<!-- .why-choose-us.style-two -->
+<section class="why-choose-us style-two section-padding ng-scope">
+	<div class="container">
+		<!-- .sec-title -->
+		<div class="sec-title text-center">
+			<h1>在这里我能获得什么</h1>
+			<span class="tag-line">加入技匠社的理由</span>
+			<span class="border"></span>
+			<p>技匠社是一个刚刚起步的以程序员和设计师为主要用户群体的在线社区，我们以专业和苛刻的眼光为大家提供优秀的技术类资源。</p>
+		</div><!-- /.sec-title -->
+		<div class="why-choose-us-wrap row">
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<ul class="why-choose-us-facts">
+					<li>
+						<div class="icon-holder">
+							<i class="fa fa-keyboard-o"></i>
+						</div>
+						<div class="content">
+							<h4>我是一名程序员</h4>
+							<p>程序员在这里除了能够获得更多开发相关的资源外，还能够学习设计相关的知识和技能，并逐渐成长为一名优秀的全栈工程师,做出优秀的产品。</p>
+						</div>
+					</li>
+					<li>
+						<div class="icon-holder">
+							<i class="fa fa-paint-brush"></i>
+							<!-- <i class="glyphicons glyphicons-keyboard-wireless"></i> -->
+						</div>
+						<div class="content">
+							<h4>我是一名设计师</h4>
+							<p>设计师在技匠社也将获得更多优质设计资源以及工具，另外你还能学习开发技术，成为一个能做出真实产品的设计师。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="accrodion-wrap" accrodion="">
+					<div class="accrodion clearfix active">
+						<div class="accrodion-header">
+							<div class="icon-holder">
+								<i class="fa fa-bullhorn"></i>
+
+							</div>
+							<h4>一个不一样的技术博客</h4>
+							<div class="expander minus"></div>
+						</div>
+						<div style="display: block;" class="accrodion-content">
+							<p>大部分技匠社的成员都是通过阅读技匠的文章认识技匠并加入技匠社的，技匠仍然会坚持不断地为年轻的程序员/设计师朋友们写出更多优秀的文章。</p>
+						</div>
+					</div>
+					<div class="accrodion clearfix">
+						<div class="accrodion-header">
+							<div class="icon-holder">
+								<i class="fa fa-cube"></i>
+							</div>
+							<h4>优秀的资源</h4>
+							<div class="expander plus"></div>
+						</div>
+						<div class="accrodion-content">
+							<p>我们为每一位技匠社成员收集和整理最新的优质开发/设计资源，包括教程，工具，资源，文章等，同时我们也鼓励更多的人参与进来，推荐更多地优秀资源，帮助大家一起成长。</p>
+						</div>
+					</div>
+					<div class="accrodion clearfix">
+						<div class="accrodion-header">
+							<div class="icon-holder">
+								<i class="fa fa-suitcase"></i>
+							</div>
+							<h4>更多合作机会</h4>
+							<div class="expander plus"></div>
+						</div>
+						<div class="accrodion-content">
+							<p>技匠社网站是由技匠社早期成员参与并一起完成，你也可以通过联系技匠获得类似开源项目的开发经验。无论你是程序员还是设计师，这都将帮助你获得更好的成长，如果是盈利性项目，也可以获得不错的回报哦^_^</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- /.why-choose-us.style-two -->
+
+<!-- .blogs -->
+<section class="blogs has-texture section-padding ng-scope">
+	<div class="container">
+		<!-- .sec-title -->
+		<div class="sec-title text-center">
+			<h1>阅读技匠的博客</h1>
+			<span class="tag-line">一个不一样的技术技术博客</span>
+			<span class="border"></span>
+			<p>技匠是从2016年2月开始用简书来写自己的技术博客的，目前是简书的签约作者和稀土掘金的联合编辑以及百度知道日报的特邀作者，如果你和我一样，也喜欢写作并希望更多人读到你的文章，不妨向我们推荐，我会将你的优秀文章推广到掘金等平台，让更多的人能够读到你的文章。</p>
+		</div><!-- /.sec-title -->
+		<!-- .blog-wrap -->
+		<div class="blog-wrap row">
+			<!-- ngRepeat: blog in blogs --><div class="col-md-6 col-sm-12 col-xs-12 ng-scope" ng-repeat="blog in blogs">
+				<!-- .single-blog-post -->
+				<div class="single-blog-post company-news">
+					<!-- .img-holder -->
+					<div class="img-holder">
+						<a href="http://www.jianshu.com/p/744fb80e7d72" ng-href="http://www.jianshu.com/p/744fb80e7d72" target="_blank">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/1_002.jpg" ng-src="http://static.jijiangshe.com/img/blogs/1.jpg" alt="">
+						<div class="date">
+							<b class="ng-binding">01</b> Top
+						</div>	
+						</a>				
+					</div><!-- /.img-holder -->
+					<!-- .content -->
+					<div class="content">
+						<a href="http://www.jianshu.com/p/744fb80e7d72" ng-href="http://www.jianshu.com/p/744fb80e7d72" target="_blank"><h3 class="ng-binding" ng-bind="blog.title">自学设计，你真的入门了吗？</h3></a>
+						<ul class="meta">
+							
+							<li><a href="http://www.jianshu.com/p/744fb80e7d72" class="ng-binding" ng-href="http://www.jianshu.com/p/744fb80e7d72" target="_blank">阅读 15801</a></li>
+							<li><a href="http://www.jianshu.com/p/744fb80e7d72" class="ng-binding" ng-href="http://www.jianshu.com/p/744fb80e7d72" target="_blank">喜欢: 963</a></li>
+						</ul>
+						<p class="ng-binding" ng-bind="blog.desc">通过技匠自身的实践和感悟，告诉读者如何以正确的方式自学设计，并进一步去认识设计的本质。</p>
+						<a href="http://www.jianshu.com/p/744fb80e7d72" class="readmore" ng-href="http://www.jianshu.com/p/744fb80e7d72" target="_blank">阅读全文</a>
+					</div><!-- /.content -->
+				</div><!-- /.single-blog-post -->
+			</div><!-- end ngRepeat: blog in blogs --><div class="col-md-6 col-sm-12 col-xs-12 ng-scope" ng-repeat="blog in blogs">
+				<!-- .single-blog-post -->
+				<div class="single-blog-post company-news">
+					<!-- .img-holder -->
+					<div class="img-holder">
+						<a href="http://www.jianshu.com/p/d70041eb25d7" ng-href="http://www.jianshu.com/p/d70041eb25d7" target="_blank">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/2_002.jpg" ng-src="http://static.jijiangshe.com/img/blogs/2.jpg" alt="">
+						<div class="date">
+							<b class="ng-binding">02</b> Top
+						</div>	
+						</a>				
+					</div><!-- /.img-holder -->
+					<!-- .content -->
+					<div class="content">
+						<a href="http://www.jianshu.com/p/d70041eb25d7" ng-href="http://www.jianshu.com/p/d70041eb25d7" target="_blank"><h3 class="ng-binding" ng-bind="blog.title">iOS开发完全自学资源集合</h3></a>
+						<ul class="meta">
+							
+							<li><a href="http://www.jianshu.com/p/d70041eb25d7" class="ng-binding" ng-href="http://www.jianshu.com/p/d70041eb25d7" target="_blank">阅读 15716</a></li>
+							<li><a href="http://www.jianshu.com/p/d70041eb25d7" class="ng-binding" ng-href="http://www.jianshu.com/p/d70041eb25d7" target="_blank">喜欢: 759</a></li>
+						</ul>
+						<p class="ng-binding" ng-bind="blog.desc">如果你有一个很好的想法，为什么不自己动手做一个App来实现它呢。通过以下这些精心挑选的教程和资源，你也能作出属于自己的iOS App来。</p>
+						<a href="http://www.jianshu.com/p/d70041eb25d7" class="readmore" ng-href="http://www.jianshu.com/p/d70041eb25d7" target="_blank">阅读全文</a>
+					</div><!-- /.content -->
+				</div><!-- /.single-blog-post -->
+			</div><!-- end ngRepeat: blog in blogs --><div class="col-md-6 col-sm-12 col-xs-12 ng-scope" ng-repeat="blog in blogs">
+				<!-- .single-blog-post -->
+				<div class="single-blog-post company-news">
+					<!-- .img-holder -->
+					<div class="img-holder">
+						<a href="http://www.jianshu.com/p/68fa0bca10f9" ng-href="http://www.jianshu.com/p/68fa0bca10f9" target="_blank">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/3_003.jpg" ng-src="http://static.jijiangshe.com/img/blogs/3.jpg" alt="">
+						<div class="date">
+							<b class="ng-binding">03</b> Top
+						</div>	
+						</a>				
+					</div><!-- /.img-holder -->
+					<!-- .content -->
+					<div class="content">
+						<a href="http://www.jianshu.com/p/68fa0bca10f9" ng-href="http://www.jianshu.com/p/68fa0bca10f9" target="_blank"><h3 class="ng-binding" ng-bind="blog.title">每个程序员都应该了解的一件事</h3></a>
+						<ul class="meta">
+							
+							<li><a href="http://www.jianshu.com/p/68fa0bca10f9" class="ng-binding" ng-href="http://www.jianshu.com/p/68fa0bca10f9" target="_blank">阅读 6915</a></li>
+							<li><a href="http://www.jianshu.com/p/68fa0bca10f9" class="ng-binding" ng-href="http://www.jianshu.com/p/68fa0bca10f9" target="_blank">喜欢: 329</a></li>
+						</ul>
+						<p class="ng-binding" ng-bind="blog.desc">程序员是否仅仅通过出色的技术能力就能获得成功呢？看看技匠从那些IT高管和行业技术大牛那里获得的启发。</p>
+						<a href="http://www.jianshu.com/p/68fa0bca10f9" class="readmore" ng-href="http://www.jianshu.com/p/68fa0bca10f9" target="_blank">阅读全文</a>
+					</div><!-- /.content -->
+				</div><!-- /.single-blog-post -->
+			</div><!-- end ngRepeat: blog in blogs --><div class="col-md-6 col-sm-12 col-xs-12 ng-scope" ng-repeat="blog in blogs">
+				<!-- .single-blog-post -->
+				<div class="single-blog-post company-news">
+					<!-- .img-holder -->
+					<div class="img-holder">
+						<a href="http://www.jianshu.com/p/f0d134ed7fd0" ng-href="http://www.jianshu.com/p/f0d134ed7fd0" target="_blank">
+						<img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/4_002.jpg" ng-src="http://static.jijiangshe.com/img/blogs/4.jpg" alt="">
+						<div class="date">
+							<b class="ng-binding">04</b> Top
+						</div>	
+						</a>				
+					</div><!-- /.img-holder -->
+					<!-- .content -->
+					<div class="content">
+						<a href="http://www.jianshu.com/p/f0d134ed7fd0" ng-href="http://www.jianshu.com/p/f0d134ed7fd0" target="_blank"><h3 class="ng-binding" ng-bind="blog.title">如何成为一名优秀的全栈工程师</h3></a>
+						<ul class="meta">
+							
+							<li><a href="http://www.jianshu.com/p/f0d134ed7fd0" class="ng-binding" ng-href="http://www.jianshu.com/p/f0d134ed7fd0" target="_blank">阅读 12614</a></li>
+							<li><a href="http://www.jianshu.com/p/f0d134ed7fd0" class="ng-binding" ng-href="http://www.jianshu.com/p/f0d134ed7fd0" target="_blank">喜欢: 316</a></li>
+						</ul>
+						<p class="ng-binding" ng-bind="blog.desc">全栈工程师是目前最热门职位，技匠带你全面认识全栈工程师的价值以及成为优秀全栈工程师所需具备的关键技能和附加技能。</p>
+						<a href="http://www.jianshu.com/p/f0d134ed7fd0" class="readmore" ng-href="http://www.jianshu.com/p/f0d134ed7fd0" target="_blank">阅读全文</a>
+					</div><!-- /.content -->
+				</div><!-- /.single-blog-post -->
+			</div><!-- end ngRepeat: blog in blogs -->
+			
+		</div><!-- /.blog-wrap -->
+	</div>
+</section><!-- /.blogs -->
+
+
+<!-- .contact -->
+<!-- ngInclude: '/views/feedback/feedbackForm.html?v=1.0.1' --><section style="" class="contact section-padding ng-scope" ng-include="'/views/feedback/feedbackForm.html?v=1.0.1'" ng-controller="FeedbackCtrl"><div class="container ng-scope">
+    <!-- .sec-title -->
+    <div class="sec-title text-center">
+        <h1>给我们留言</h1>
+        <span class="tag-line">您的意见将帮助我们进步</span>
+        <span class="border"></span>
+        <p>我们渴望听到你的声音，因为任何意见或建议甚至是异想天开的想法都能帮助我们更好地成长。我们也会争取在最短的时间内给您回复。</p>
+    </div><!-- /.sec-title -->
+    <div class="row contact-wrap">
+        <div class="col-md-7 col-sm-12 col-xs-12">
+            <form name="form" class="contact-form ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email" ng-submit="addFeedback(form)" role="form" novalidate="">
+                <div class="form-group">
+                    <div class="half">
+                        <input class="ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength" placeholder="姓名（或昵称）" name="name" ng-model="newFeedback.name" required="" ng-maxlength="20" maxlength="20" type="text">
+                    </div>
+                    <div class="half">
+                        <input placeholder="Email" name="email" ng-model="newFeedback.email" class="border-left ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email" required="" ng-maxlength="50" maxlength="50" type="email"> 
+                    </div>                      
+                </div>
+                <div class="form-group">
+                    <input placeholder="简要说明您的意见或建议" name="subject" class="full ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength" ng-model="newFeedback.subject" required="" ng-maxlength="50" maxlength="50" type="text">
+                </div>
+                <div class="form-group h-200">
+                    <textarea name="message" placeholder="反馈的详细内容，可以是缺陷报告，改进建议甚至是吐槽。我们都会认真对待，一一处理的 ^_^" class="full ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength" ng-model="newFeedback.message" required="" ng-maxlength="500" maxlength="500"></textarea>
+                    <button class="ng-hide" ng-click="viewLogin()" type="button" ng-hide="$root.authenticated">登录后发送</button>
+                    <button class="" type="submit" ng-show="$root.authenticated">发 送</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-5 col-sm-12 col-xs-12">
+            <ul class="contact-info">
+                <li>
+                    <div class="icon-holder">
+                        <i class="fa fa-wechat"></i>
+                    </div>
+                    <div class="content">
+                        <p>微信订阅号：<br><a href="javascript:showWechatCode()">techmask（技匠）</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon-holder">
+                        <i class="fa fa-book"></i>
+                    </div>
+                    <div class="content">
+                        <p> 技术博客：<br><a href="http://www.jianshu.com/users/3313b20a4e25/timeline" target="_blank">技匠的简书专栏</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon-holder">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                        <p>电子邮箱地址： <br><a href="mailto:jijiang@techmask.net" target="_blank">jijiang@techmask.net</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></section><!-- /.contact --></div>
+
+
+	<section class="footer-top anim-5-all">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+					<div class="left-contact">
+						<div class="icon-holder">
+							<i class="fa fa-wechat"></i>
+						</div>
+						<div class="content">
+							<h3>techmask</h3>
+							<p>jijiang@techmask.net</p>
+						</div>
+					</div>			
+				</div>
+				<div class="col-lg-6 col-md-4 col-sm-4 col-xs-12 footer-logo">
+					<a href="http://jijiangshe.com/" ng-href="/"><img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/footer-logo.png" alt=""></a>
+				</div>
+				<div class="col-lg-3 col-md-5 col-sm-4 col-xs-12 footer-sociallink">
+					<ul class="social-links">
+						<li><a href="javascript:showWechatCode()"><i class="fa fa-wechat"></i></a></li>
+						<li><a href="http://weibo.com/u/5886117672?is_all=1" target="_blank"><i class="fa fa-weibo"></i></a></li>
+						<li><a href="https://github.com/ji-jiang" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.pinterest.com/techmask/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>	
+	</section>
+
+	<footer class="anim-5-all">
+		<div class="container">
+		    <div class="col-lg-6 col-md-6 col-sm-12">
+	            <div class="footer-menu">
+	                <!-- .navigation -->
+	                <ul class="navigation">
+	                    <li><a href="http://jijiangshe.com/">主页</a></li>
+	                    <li><a href="http://jijiangshe.com/resources/all">资源分享</a></li>
+	                    <li><a href="http://jijiangshe.com/crafts">作品发布</a></li>
+	                    <li><a href="http://www.jianshu.com/users/3313b20a4e25/latest_articles" target="_blank">技匠志</a></li>
+	                    <li><a href="http://jijiangshe.com/faq">关于技匠社</a></li>
+	                </ul><!-- /.navigation -->
+	            </div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+	            <div class="copyright">
+	                <p>沪ICP备16016767号 ©copyright techmask 2016</p>
+	            </div>
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+<div class="dialog-mask"></div>
+<!-- ngInclude:  --><div style="" class="dialog register-and-login ng-scope" ng-class="{true:'register',false:'login'}[$root.registerInd]" ng-include="" src="%27views/user/registerAndLogin.html%27"><article class="register-info ng-scope">
+    <div class="wechat-code">
+    </div>
+    <p>扫描上方二维码，加入技匠社</p>
+</article>
+<article class="login-info ng-scope">
+    <a class="thm-btn" href="https://graph.qq.com/oauth2.0/authorize?response_type=code&amp;client_id=101308717&amp;redirect_uri=http%3a%2f%2fjijiangshe.com%2foauth%2fqq%2fcallback&amp;state=1h8k68be244kxdeb2k91sdfasdfads230f40817feeekjm" target="_blank"><i class="fa fa-qq"></i>QQ账号登录</a>
+    <a class="thm-btn" href="https://open.weixin.qq.com/connect/qrconnect?appid=wxa474465a161890b5&amp;redirect_uri=http%3a%2f%2fjijiangshe.com%2foauth%2fweixin%2fcallback&amp;response_type=code&amp;scope=snsapi_login" target="_blank"><i class="fa fa-wechat"></i>微信账号登录</a>
+    <a class="thm-btn" href="https://api.weibo.com/oauth2/authorize?client_id=3651855265&amp;redirect_uri=http%3a%2f%2fjijiangshe.com%2foauth%2fweibo%2fcallback&amp;response_type=code" target="_blank"><i class="fa fa-weibo"></i>新浪微博账号登录</a>
+    <a class="thm-btn" href="https://github.com/login/oauth/authorize?redirect_uri=http://jijiangshe.com/oauth/github/callback&amp;client_id=b1aebebfa3ddc884540d&amp;state=1h8k68be244kxdeb2k91sdfasdfads230f40817feeekjm" target="_blank"><i class="fa fa-github"></i>GitHub账号登录</a>
+    <a class="thm-btn coding" href="https://coding.net/oauth_authorize.html?client_id=9ae6bc143557a9b6e30ecf1ce9db9330&amp;redirect_uri=http%3A%2F%2Fjijiangshe.com%2Foauth%2Fcoding%2Fcallback&amp;response_type=code&amp;scope=user" target="_blank">Coding账号登录</a>
+</article>
+<div class="login ng-scope">
+    <p>
+        已经加入技匠社了？点击登录
+    </p>
+    <a href="" class="thm-btn" ng-click="toLogin()">点击登录</a>
+</div>
+<div class="register ng-scope">
+    <p>
+        关注技匠微信号，获取最新社区资讯
+    </p>
+    <a href="" class="thm-btn" ng-click="toRegister()">点击加入</a>
+</div>
+
+</div>
+<!-- ngInclude:  --><div style="" class="dialog resource ng-scope" ng-controller="ResourceDetailCtrl" ng-include="" src="%27views/resource/resourceDetail.html%27"><div class="resouce-container ng-scope">    
+    
+    <article class="comments translate-right2">
+        
+        <div class="comments-box">
+            <h3 class="title  ng-binding">用户评论 (1)</h3> 
+            <div class="scroll">
+                <!-- ngIf: comments.length==0 --><div ng-if="comments.length==0" class="empty-msg ng-scope">还没人点评，快来抢沙发！</div><!-- end ngIf: comments.length==0 -->
+                <!-- ngRepeat: comment in comments -->  
+            </div>             
+        </div>
+        
+    </article>
+    <article class="comment-add bg translate-right2">
+        <div class="admin-info-box">
+            <div class="img-box">
+                <a href="http://jijiangshe.com/profile/6" ng-href="/profile/6" target="_blank"><img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/100.jpg" class="img-circle"></a>
+            </div>
+            <div class="text-box">
+                <h3 class="ng-binding">技匠</h3>
+                <p class="ng-binding">给我发布的《前端设计与开发Cheat Sheet集合》打个分，也来说说你对这个资源的看法吧~~</p>
+            </div>
+        </div>
+
+        <form name="commentForm" ng-submit="addComment(commentForm)" role="form" class="comment-form ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength" novalidate="">
+            <span rate-value="newComment.ratingScore" ng-hide="newComment.parentId" class="rating-label ng-isolate-scope"><span class="int-part ng-binding">0</span><span class="decimal-part ng-binding">.0</span></span>
+            <div rate-model="newComment.rating" rating-score="newComment.ratingScore" ng-hide="newComment.parentId" class="rating ng-isolate-scope"><div class="stars"><i class="fa fa-star-o" ng-class="{true:'fa-star',false:'fa-star-o'}[ratingScore&gt;0]" ng-mouseenter="setHoverRating(2)" ng-mouseleave="resetHoverRating()" ng-click="setRating(2)"></i><i class="fa fa-star-o" ng-class="{true:'fa-star',false:'fa-star-o'}[ratingScore&gt;2]" ng-mouseenter="setHoverRating(4)" ng-mouseleave="resetHoverRating()" ng-click="setRating(4)"></i><i class="fa fa-star-o" ng-class="{true:'fa-star',false:'fa-star-o'}[ratingScore&gt;4]" ng-mouseenter="setHoverRating(6)" ng-mouseleave="resetHoverRating()" ng-click="setRating(6)"></i><i class="fa fa-star-o" ng-class="{true:'fa-star',false:'fa-star-o'}[ratingScore&gt;6]" ng-mouseenter="setHoverRating(8)" ng-mouseleave="resetHoverRating()" ng-click="setRating(8)"></i><i class="fa fa-star-o" ng-class="{true:'fa-star',false:'fa-star-o'}[ratingScore&gt;8]" ng-mouseenter="setHoverRating(10)" ng-mouseleave="resetHoverRating()" ng-click="setRating(10)"></i></div><div><span class="ng-binding">请选择</span></div></div>
+            
+            
+            <div class="form-group">
+                <textarea rows="10" class="desc ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength" ng-model="newComment.comment" placeholder="我想说~~" ng-maxlength="300" required=""></textarea>
+                
+            </div>
+            <button type="button" class="thm-btn bdr" ng-click="hideComments()">返回</button>
+            <!-- ngIf: $root.authenticated --><button type="submit" class="thm-btn clrd submit-btn ng-scope" ng-if="$root.authenticated">发布评论</button><!-- end ngIf: $root.authenticated -->
+            <!-- ngIf: !$root.authenticated -->
+        </form>
+        
+    </article>
+
+    <article class="info translate-right2">
+        <div class="img-holder">
+            <img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/R00000130_md.png" ng-src="http://static.jijiangshe.com/img/upload/resources/R00000130_md.png?version=1" alt="">
+        </div>
+        <div class="actions">
+           <a ng-click="showComments()" class="pull-right"><i class="fa fa-edit"></i>写匠评</a>
+           <span class="like ng-binding" ng-click="flagResource('L')"><i class="fa fa-heart-o" ng-class="{'Y':'fa-heart filled','N':'fa-heart-o'}[$root.currentResource.likeInd]"></i> 5</span>
+           <span class="bookmark ng-binding" ng-click="flagResource('B')"><i class="fa fa-star-o" ng-class="{'Y':'fa-star filled','N':'fa-star-o'}[$root.currentResource.bookmarkInd]"></i> 4</span>
+           <!-- ngIf: $root.currentResource.downloadUrl --><span class="cloud-download ng-binding ng-scope" ng-click="downloadResource('D')" ng-if="$root.currentResource.downloadUrl"><i class="fa fa-cloud-download" ng-class="{'Y':'filled'}[$root.currentResource.downloadInd]"></i> 122</span><!-- end ngIf: $root.currentResource.downloadUrl -->
+           <span class="comment ng-binding" ng-click="showComments()"><i class="fa fa-comment"></i> 1</span>
+        </div>
+        <div class="desc ng-binding">
+            <h4>
+                资源说明：
+            </h4>
+            与几年前的开发模式不同，今天当我们做前端设计或开发时，往往需要组合很多不同的技术、框架，并且使用不同的工具。使用Cheat Sheet 能使你的工作效率得到显著提升。这里为大家整理了前端设计和开发最常用的Cheat Sheet。
+        </div>
+        
+    </article>
+    <article class="detail bg translate-right2">
+        <h3 class="title ng-binding" ng-bind="$root.currentResource.title">前端设计与开发Cheat Sheet集合</h3>
+        <div class="meta">
+        
+            <span class="category"> <span class="ng-binding ng-isolate-scope" category="DEVELOPMENT">开发</span> . <span class="ng-binding ng-isolate-scope" subcategory="FRONTEND">前端</span></span>
+            <span class="tags ng-binding">Cheat Sheet</span>
+        </div>
+        <section class="source">
+            <h4>资源详情</h4>
+            <span class="st-l">来源：</span>
+            <span class="sc-l">社员分享</span>
+            <span class="sc-r ng-binding">2016-06-04</span>
+            <span class="st-r">收录时间：</span>
+            
+            <span class="st-l">分享人：</span>
+            <a href="http://jijiangshe.com/profile/6" class="sc-l ng-binding" ng-href="/profile/6" target="_blank">技匠</a>
+            <!-- ngIf: $root.currentResource.downloadUrl --><span class="sc-r ng-scope" ng-if="$root.currentResource.downloadUrl"><a href="http://www.jianshu.com/p/bf266ec5a244?utm_source=jijiangshe" ng-href="http://www.jianshu.com/p/bf266ec5a244?utm_source=jijiangshe" target="_blank">查看资源详情</a></span><!-- end ngIf: $root.currentResource.downloadUrl -->
+
+            <!-- ngIf: $root.currentResource.downloadUrl --><span ng-if="$root.currentResource.downloadUrl" class="st-r ng-scope">资源介绍：</span><!-- end ngIf: $root.currentResource.downloadUrl -->
+            
+        </section>
+        <section class="download">
+            <!-- ngIf: $root.currentResource.downloadUrl --><h4 class="ng-scope" ng-if="$root.currentResource.downloadUrl">资源下载</h4><!-- end ngIf: $root.currentResource.downloadUrl -->
+            <!-- ngIf: $root.currentResource.downloadUrl==null -->
+            <!-- ngIf: $root.currentResource.downloadUrl --><div class="clearfix info ng-scope" ng-if="$root.currentResource.downloadUrl">
+                <!-- ngIf: $root.currentResource.downloadPassword --><span class="password ng-scope" ng-if="$root.currentResource.downloadPassword">网盘密码：
+                    <span class="ng-binding" ng-show="$root.authenticated">XXXXXXXXX</span>
+                    <a class="ng-hide" ng-hide="$root.authenticated" ng-click="viewLogin()">登录后可见</a>
+                </span><!-- end ngIf: $root.currentResource.downloadPassword -->
+                <a ng-click="downloadResource('D')" target="_blank">网盘访问地址</a>
+            </div><!-- end ngIf: $root.currentResource.downloadUrl -->
+            <!-- ngIf: $root.currentResource.downloadUrl==null -->
+            <span class="statement">
+                声明：技匠社内相关分享资源仅用作交流学习目的，不得用于商业用途或转发他人使用。如需用作其他目的，请通过资源详情页面了解版权，或进一步购买信息。
+            </span>
+        </section>
+        <section class="donation">
+            <span class="title">
+                如果觉得资源不错，欢迎通过打赏支持我们
+            </span>
+            <a href="" class="thm-btn" ng-click="showDonate()">打赏任意金额</a>
+        </section>
+                
+    </article>
+    <article class="donate translate-right2">
+            
+            <a class="method ng-binding" ng-bind="donation.switchTitle" ng-click="swithDonationMethod()">微信支付</a>
+            <h4 class="title ng-binding" ng-bind="donation.title">支付宝打赏任意金额</h4>
+            <div class="code">
+                <div class="zhifubao" ng-class="{true:'zhifubao',false:'weixin'}[donation.isZhifubao]"></div>
+            </div>
+            <p>
+                <span class="title-info">
+                    您的打赏将被用于：
+                </span>
+                
+                1. 购买更多优秀的资源并分享给技匠社的社员们<br>
+                2. 用于技匠社网站的运维以及更多功能的开发<br>
+                3. 奖励参与技匠社建设以及提供优秀资源的社员们<br>
+                4. 未来组织更多线上线下活动（如年底红包发放 等）
+            </p>
+            <a class="return" ng-click="hideDonate()">
+                返回
+            </a>
+    </article>
+</div></div>
+<!-- ngInclude:  --><div style="" class="dialog resource-add ng-scope" ng-controller="ResourceAddCtrl" ng-include="" src="%27views/resource/addResource.html%27"><form name="resourceForm" ng-submit="addOrUpdateResource(resourceForm)" role="form" class="resource-form ng-pristine ng-scope ng-valid-maxlength ng-valid ng-valid-required" novalidate="">
+    <article class="">
+      
+
+        <h2 class="ng-binding">分享或推荐优秀资源</h2> 
+
+
+        <div class="form-group">
+            <input value="前端设计与开发Cheat Sheet集合" class="ng-pristine ng-untouched ng-valid-maxlength ng-valid ng-valid-required" placeholder="资源标题" ng-model="newResource.title" required="" ng-maxlength="50" maxlength="50" type="text">
+        </div>
+        <div category-model="newResource.category" resource-type="newResource.type" ng-hide="resourceType=='C'" class="category-select ng-isolate-scope" ng-class="{true:'ng-invalid'}[invalid]"><!-- ngRepeat: category in categories | filter:{resourceType:resourceType} --><span class="ng-binding ng-scope ng-hide" ng-repeat="category in categories | filter:{resourceType:resourceType}" ng-hide="category.name=='ALL'" ng-class="{true:'active'}[category.name==categoryModel]" ng-click="selectCategory(category)">全部</span><!-- end ngRepeat: category in categories | filter:{resourceType:resourceType} --><span class="ng-binding ng-scope" ng-repeat="category in categories | filter:{resourceType:resourceType}" ng-hide="category.name=='ALL'" ng-class="{true:'active'}[category.name==categoryModel]" ng-click="selectCategory(category)">设计</span><!-- end ngRepeat: category in categories | filter:{resourceType:resourceType} --><span class="ng-binding ng-scope active" ng-repeat="category in categories | filter:{resourceType:resourceType}" ng-hide="category.name=='ALL'" ng-class="{true:'active'}[category.name==categoryModel]" ng-click="selectCategory(category)">开发</span><!-- end ngRepeat: category in categories | filter:{resourceType:resourceType} --><span class="ng-binding ng-scope" ng-repeat="category in categories | filter:{resourceType:resourceType}" ng-hide="category.name=='ALL'" ng-class="{true:'active'}[category.name==categoryModel]" ng-click="selectCategory(category)">移动</span><!-- end ngRepeat: category in categories | filter:{resourceType:resourceType} --><span class="ng-binding ng-scope" ng-repeat="category in categories | filter:{resourceType:resourceType}" ng-hide="category.name=='ALL'" ng-class="{true:'active'}[category.name==categoryModel]" ng-click="selectCategory(category)">工具</span><!-- end ngRepeat: category in categories | filter:{resourceType:resourceType} --></div>
+        <div category-model="newResource.category" sub-category-model="newResource.subCategory" class="sub-category-select ng-isolate-scope" ng-class="{true:'ng-invalid'}[invalid]" ng-show="subCategories!=null&amp;&amp;subCategories.length&gt;0"><!-- ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope ng-hide" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">全部</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope active" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">前端</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">后端</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">数据库</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">架构</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">安全</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">云计算</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">大数据</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">机器学习</span><!-- end ngRepeat: subCategory in subCategories --><span class="ng-binding ng-scope" ng-repeat="subCategory in subCategories" ng-hide="subCategory.name=='ALL'" ng-class="{true:'active'}[subCategory.name==subCategoryModel]" ng-click="selectSubCategory(subCategory)">阅读</span><!-- end ngRepeat: subCategory in subCategories --></div>
+        <div class="form-group">
+            <textarea class="ng-pristine ng-untouched ng-valid-maxlength ng-valid ng-valid-required" placeholder="请用心写下你的资源推荐原因" ng-model="newResource.desc" required="" ng-maxlength="300" maxlength="300">与几年前的开发模式不同，今天当我们做前端设计或开发时，往往需要组合很多不同的技术、框架，并且使用不同的工具。使用Cheat Sheet 能使你的工作效率得到显著提升。这里为大家整理了前端设计和开发最常用的Cheat Sheet。</textarea> 
+        </div>
+        <div class="form-group">
+            <input value="http://www.jianshu.com/p/bf266ec5a244" class="ng-pristine ng-untouched ng-valid-maxlength ng-valid ng-valid-required" placeholder="资源介绍地址：http://" ng-model="newResource.origUrl" ng-maxlength="100" maxlength="100" required="" type="text">
+        </div>
+        <div class="form-group">
+            <input value="http://pan.baidu.com/s/1milL54c" class="ng-pristine ng-untouched ng-valid ng-valid-maxlength" placeholder="网盘地址（可选，网盘资源须填写）：http://" ng-model="newResource.downloadUrl" ng-maxlength="100" maxlength="100" type="text">
+        </div>
+        <div class="form-group">
+            <input value="XXXXXXXXX" class="ng-pristine ng-untouched ng-valid ng-valid-maxlength" placeholder="网盘密码（可选，网盘资源须填写）" ng-model="newResource.downloadPassword" ng-maxlength="50" maxlength="50" type="text">
+        </div>
+        <div class="form-group">
+            <input value="Cheat Sheet" class="ng-pristine ng-untouched ng-valid ng-valid-maxlength" placeholder="标签（多个标签，请用英文“,”隔开）" ng-model="newResource.tags" ng-maxlength="20" maxlength="20" type="text">    
+        </div>
+        
+            
+    </article>
+    <article class="img-info">
+        
+
+        <div flow-init="flowOptions" flow-name="obj.flow" flow-file-added="!!{png:1,jpg:1,jpeg:1}[$file.getExtension()]" class="image-upload ng-scope">
+           
+            <!-- ngRepeat: file in $flow.files -->
+            <div class="img-container" ng-class="newResource.id==null" ng-show="$flow.files.length==0">
+               <!-- ngIf: newResource.id --><img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/R00000130_md.png" class="ng-scope" ng-if="newResource.id" ng-src="http://static.jijiangshe.com/img/upload/resources/R00000130_md.png?version=1" height="203" width="228"><!-- end ngIf: newResource.id -->
+               <!-- ngIf: newResource.id==null -->
+            </div>
+            <div class="clear"></div>
+       
+        
+            <span flow-btn="" class="thm-btn bdr">上传资源图片<input style="visibility: hidden; position: absolute; width: 1px; height: 1px;" type="file"></span>
+         
+        </div>
+
+        <p class="statement">
+            <span class="title-info">
+                资源发布注意事项：
+            </span>
+            
+            1. 您上传的资源将有获得会员打赏分红 &nbsp;<a href="http://jijiangshe.com/ranks" ng-href="/ranks" target="_blank">【本周分红排名】</a><br>            
+            2. 每人每天限上传3个资源，以保证所有资源都能得到有效审核<br>
+            3. 上传有效资源达到50个，可申请加入技匠建设者团队<br>
+            4. 请勿上传任何涉及到国家法规禁止的资源<br>
+            5. 管理员将直接删除违规资源，并禁用该用户账号<br>
+            6. 如果你无法正常上传资源，请尝试升级浏览器后再次尝试
+        </p>
+
+        <button type="submit" class="thm-btn clrd submit-btn">发布资源</button>
+    </article>
+</form>
+</div>
+
+<!-- ngInclude:  --><div style="" class="dialog wechat-dialog ng-scope" ng-include="" src="%27views/site/wechat.html%27"><div class="wechat-code ng-scope"></div></div>
+
+<div class="loading"><img src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/loading.svg" class="maximize"></div>
+
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/jquery.js"></script>
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/bootstrap.js"></script>
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/angular.js"></script>
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/angular-animate.js"></script>
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/angular-cookies.js"></script>
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/angular-resource.js"></script>
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/angular-route.js"></script>
+
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/vendor-angular-min.js"></script>
+
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/vendor-others-min.js"></script>
+
+
+<!-- <script src="js/app/app.js"></script>
+<script src="js/app/main.js"></script>
+<script src="js/app/services.js"></script>
+<script src="js/app/faq-manager.js"></script>
+<script src="js/app/user-manager.js"></script>
+<script src="js/app/resource-manager.js"></script>
+<script src="js/app/feedback-manager.js"></script>
+<script src="js/app/flag-manager.js"></script>
+<script src="js/app/profile-manager.js"></script>
+<script src="js/app/comment-manager.js"></script>
+<script src="js/app/rank-manager.js"></script>
+<script src="js/app/account-manager.js"></script>
+<script src="js/app/sidebar-manager.js"></script>
+<script src="js/app/custom.js"></script> -->
+
+
+<script src="%E6%8A%80%E5%8C%A0%E7%A4%BE%20_%20%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%20%E4%BD%9C%E5%93%81%E5%8F%91%E5%B8%83%20%E5%88%9B%E6%96%B0%E5%90%88%E4%BD%9C_files/jijiangshe-min.js"></script>
+
+
+</body></html>

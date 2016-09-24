@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+#radius
+{ 
+text-align:center;
+border:2px solid #a1a1a1;
+padding:10px 40px;
+background:#dddddd;
+width:350px;
+border-radius:50px;
+-moz-border-radius:25px;/*old  firefox*/
+box-shadow:10px 10px 5px #888888;
+-moz-box-shadow:10px 10px 5px #888888;/*old  firefox*/
+}
+#shadow
+{ 
+text-align:center;
+margin:10px 0px;
+padding:10px 40px;
+background:#ff9900;
+width:350px;
+box-shadow:10px 10px 5px #888888;
+-moz-box-shadow:10px 10px 5px #888888;/*old  firefox*/
+}
+#borderimg1
+{ 
+text-align:center;
+margin:10px 0px;
+padding:10px 40px;
+background:#009900;
+width:350px;
+border-image:url(picture/1144553.png) 600 600 round;
+-moz--border-image:url(picture/1144553.png) 30 30 round;/*old  firefox*/
+-webkit-border-image:url(picture/1144553.png) 30 30 round;/*Safari and Chrome*/
+-o-border-image:url(picture/1144553.png) 30 30 round;/*Opera*/
+}
+#borderimg2
+{ 
+text-align:center;
+margin:10px 0px;
+padding:10px 40px;
+background:#009900;
+width:350px;
+
+border-image: url(picture/1144553.png) 600 600 stretch;
+-moz--border-image:url(picture/1144553.png) 30 30 stretch;/*old  firefox*/
+-webkit-border-image:url(picture/1144553.png) 30 30 stretch;/*Safari and Chrome*/
+-o-border-image:url(picture/1144553.png) 30 30 round;/*Opera*/
+}
+.bgimg
+{
+border:1px solid black;
+padding:20px;
+background-image:url(picture/1144553.png);
+background-repeat:no-repeat;
+background-position:left;
+background-size:100px 100px;
+width:350px;
+}
+.bgimg1
+{
+background-origin:content-box;
+}
+.bgimg2
+{
+background-origin:padding-box;
+font-family:myfirtfont;
+}
+#textshadow{
+	text-shadow:5px 5px 5px #990033;
+	
+}
+@font-face
+{
+	font-family:myfirstfont;
+	src:url(font/%E5%8D%A1%E9%80%9A%E7%AE%80.ttf),url(font/%E8%92%99%E7%BA%B3%E7%AE%80%E7%B2%97%E4%BF%8F%E7%9A%AE.otf);
+	font-weight:bold;
+	</style>
+</head>
+
+<body>
+<div id="radius">
+这个矩形有圆角哦
+</div>
+<div id="shadow">
+这个矩形有阴影哦
+</div>
+<hr />
+<div id="borderimg1">
+用图片做边框<em>（IE不支持border-image属性）</em>图片铺满
+</div>
+<div id="borderimg2">
+用图片做边框<em>（IE不支持border-image属性）</em>图片被拉伸以填充
+</div>
+<hr />
+<div>
+<div  class="bgimg bgimg1">
+<em id="textshadow">origin规定背景图片的ss定位区域</em>：背景在content-box时的效果。
+origin规定背景图片的定位区域：背景在content-box时的效果。origin规定背景图片的定位区域：背景在content-box时的效果。origin规定背景图片的定位区域：背景在content-box时的效果。
+</div>
+<div class="bgimg bgimg2">
+rigin规定背景图片的定位区：背景在padding-box时的效果，只有当设置了padding的值的时候，才能看到效果。rigin规定背景图片的定位区：背景在padding-box时的效果，只有当设置了padding的值的时候，才能看到效果。rigin规定背景图片的定位区：背景在padding-box时的效果，只有当设置了padding的值的时候，才能看到效果。
+</div>
+</div>
+<hr />
+这是一个div元素，移动前所在的
+</body>
+</html>

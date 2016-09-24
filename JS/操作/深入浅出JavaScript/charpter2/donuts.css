@@ -1,0 +1,27 @@
+body{
+	font-size: 14px;
+	text-align: center;
+}
+#frame{
+	margin-top: 14px;
+	width: 440px;
+}
+#frame .heading{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#frame .subheading{
+	font-size: 15px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+#left{
+	float: left;
+	width: 130px;
+
+}
+.field{
+	text-align: right;
+	margin-bottom: 5px;
+}

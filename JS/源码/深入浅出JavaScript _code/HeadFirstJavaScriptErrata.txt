@@ -1,0 +1,95 @@
+Head First JavaScript
+by Michael Morrison
+
+This errata page lists errors outstanding in the most recent printing.
+
+If you have technical questions or error reports, you can send them to
+booktech@oreilly.com.  Please specify the printing date of your copy.
+
+This page was updated February 11, 2008.
+
+Here's a key to the markup:
+	[page-number]: serious technical mistake
+	{page-number}: minor technical mistake
+	<page-number>: important language/formatting problem
+	(page-number): language change or minor formatting problem
+	?page-number?: reader question or request for clarification
+
+
+
+Confirmed errors:
+
+{173}
+The answer for the next-to-last NDQ needs to be completely changed. Instead of referring to current JS, it refers to JS2, which isn't supported in any real browsers yet. Here's a new answer:
+
+<<<
+A: Maybe. The current version of JavaScript (1.7) doesn't support true local scope for variables. Instead, 
+it supports function scope, which means variables within a given function are considered local variables 
+to that function. But just sticking a variable inside of a compound statement doesn't automatically make 
+it a local variable, although a future version of JavaScript will likely remedy this situation. The easy 
+way to remember it is that variables created inside of a function are local, while all others are global.
+>>> 
+
+{273-274} The code in the exercise and the exercise solution should be changed from:
+
+function doThis(num) { 
+  return num++; 
+} 
+
+function doThat(num) { 
+  return num--; 
+}
+
+var x = doThis(11);
+var y = doThat;
+var z = doThat(x);
+x = y(z);
+y = x;
+alert(doThat(z - y));
+
+to:
+
+function doThis(num) { 
+  num++; 
+  return num; 
+} 
+
+function doThat(num) { 
+  num--; 
+  return num; 
+}
+
+var x = doThis(11);
+var y = doThat;
+var z = doThat(x);
+x = y(z);
+y = x;
+alert(doThat(z - y));
+
+{293} Third code block on page
+
+The last line of the code block should not end with a semicolon. The code should read:
+
+function showIt(theForm) {
+  alert(theForm["zipcode"].value);
+}
+
+{302} Second line of code block
+
+The code in the onblur handler should end with a semicolon. This second line of code should read:
+
+onblur="validateNonEmpty(this, document.getElementById('phone_help'));" />
+
+{323} What's My Purpose exercise
+For consistency, the positions of second and sixth answer options in the right column should be swapped 
+("The sub-pattern is required..." and "The sub-pattern is optional..."), so the ordering of the right 
+column matches the ordering on the following page of solutions.
+
+{434} diagram at top
+
+The box with the text "ceiling()" should instead contain the text "ceil()"
+
+{434, 436} Exercise and Exercise solution
+
+The second code line should read "Math.ceil(Math.PI)", not "Math.ceiling(Math.PI)"
+

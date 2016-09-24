@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>20160725（CSS3的学习）</title>
+<style>
+.translate{
+width:200px;
+height:100px;
+background:yellow;
+margin:30px;
+transform:translate(50px,100px);
+float:left;
+}
+.rotate{
+width:200px;
+height:100px;
+background:yellow;
+margin:30px;
+transform:rotate(30deg);
+float:left;
+}
+
+width:200px;
+height:100px;
+background:yellow;
+magin: 300px;
+transform:scale(2,4);
+float:left;
+}
+
+.skew{
+width:200px;
+height:100px;
+background:yellow;
+magin: 30px;
+transform:skew(30deg,20deg);
+border:1px solid;
+float:right;
+}
+.rotate3{
+width:200px;
+height:100px;
+background:yellow;
+magin: 30px;
+transform:rotateX(120deg);
+transform:rotateY(130deg);
+float:right;
+}
+.widthtrans{
+width:100px;
+height:100px;
+background:yellow;
+magin: 100px;
+float:right;
+transition:width 2s;
+}
+.widthtrans:hover{
+width:300px;
+}
+.hovertrans{
+width:100px;
+height:100px;
+background:yellow;
+magin: 500px;
+-moz-transition:width 2s, height 2s, -moz-transform 2s;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+}
+.hovertrans:hover{
+width:200px;
+height:200px;
+-moz-transform:rotate(180deg); /* Firefox 4 */
+-webkit-transform:rotate(180deg); /* Safari and Chrome */
+-o-transform:rotate(180deg); /* Opera */
+}
+.delay1{
+width:100px;
+height:100px;
+background:yellow;
+-moz-transition-property:width;
+-moz-transition-duration:1s;
+-moz-transition-timing-function:linear;
+-moz-transition-delay:2s;
+}
+.delay1:hover{
+width:200px;
+}
+
+.not{
+width:100px;
+height:100px;
+background:yellow;
+-moz-transition:width 1s linear 2s;
+}
+.not:hover{
+width:200px;
+}
+</style>
+</head>
+
+<body>
+<div class="translate">
+这个元素从左侧移动50像素，从顶端移动100像素。
+</div>
+<div class="rotate">
+这个元素顺时针旋转30度
+</div>
+<div class="scale">
+这个元素把宽度转换为原始尺寸的2倍，把高度转换为原始高度的4倍。
+</div >
+<div class="skew">
+这个元素围绕X轴把元素翻转30度，围绕Y轴翻转20度。
+</div>
+<div class="rotate3">
+3D:这个元素围绕X轴旋转120度，围绕Y轴旋转130度。
+</div>
+<div class="widthtrans">
+鼠标指针放到黄色div上时，宽度从100像素变到300像素。
+</div>
+<div class="hovertrans">
+鼠标指针放到黄色DIV上时，宽度、高度从100px变到200px，同时旋转180度。
+</div>
+<div class="delay1">
+这个元素会延迟2S，然后执行宽度从100变到200
+</div>
+<div class="not">
+这个元素用了简写的transition，效果同上。
+</div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+	margin:0;
+	padding:0;
+	color:#000;
+}
+#top {
+	height:8px;
+	border-bottom:1px dotted #000;
+	background:#65a9e6;
+	overflow:hidden;
+}
+#header {
+	width:760px;
+	height:270px;
+	margin:0 auto 18px auto;
+}
+#header #logoarea {
+	float:left;
+	width:760px;
+	height:80px;
+	background:url(images/logoarea_bg.jpg) no-repeat right top;
+}
+#header #logoarea #logo {
+	float:left;
+	width:330px;
+	height:62px;
+	margin-top:9px;
+	background:url(images/logo.jpg) no-repeat 0 0;
+}
+#header #logoarea #logo a {
+	display:none;
+}
+#header #banner {
+	float:left;
+	width:760px;
+	height:190px;
+	background:url(images/banner.jpg) no-repeat 0 0;
+}
+#main {
+	width:760px;
+	margin:0 auto;
+}
+#main #container {
+	float:left;
+	width:760px;
+	margin-bottom:18px;
+	background:url(images/container_bg_a.gif) no-repeat left bottom;
+}
+#main #container h1 {
+	width:720px;
+	height:36px;
+	margin:0;
+	padding:0 20px;
+	background:url(images/container_bg_a.gif) no-repeat left top;
+	overflow:hidden;
+}
+#main #container h1 a {
+	line-height:42px;
+	font-size:15px;
+	color:#f60;
+	text-decoration:none;
+}
+#main #container h1 a:hover {
+	color:#03c;
+	text-decoration:underline;
+}
+#main #container p {
+	width:720px;
+	margin:0 auto 8px auto;
+	text-indent:2em;
+	line-height:20px;
+	font-size:12px;
+	color:#333;
+}
+#main #container p a {
+	color:#03c;
+	text-decoration:none;
+}
+#main #container p a:hover {
+	text-decoration:underline;
+}
+#main #linkarea {
+	float:left;
+	width:760px;
+}
+#main #linkarea dl {
+	float:left;
+	width:240px;
+	margin:0 20px 0 0;
+	background:url(images/link_con_bg.gif) no-repeat left bottom;
+}
+#main #linkarea dl#template {
+	margin:0;
+}
+#main #linkarea dl dt {
+	width:210px;
+	padding:15px 15px 0 15px;
+	background:url(images/link_con_bg.gif) no-repeat left top;
+}
+#main #linkarea dl dt a img {
+	border:0;
+}
+#main #linkarea dl dd {
+	width:204px;
+	margin:8px auto 12px auto;
+	line-height:17px;
+	text-indent:2em;
+	font-size:12px;
+	color:#666;
+}
+#main #linkarea dl dd a {
+	color:#333;
+	text-decoration:none;
+}
+#main #linkarea dl dd a:hover {
+	color:#03c;
+	text-decoration:underline;
+}
+#footer {
+	width:760px;
+	height:40px;
+	margin:18px auto 0 auto;
+	background:url(images/footer_bg.gif) no-repeat 0 0;
+}
+#footer p {
+	line-height:40px;
+	text-align:center;
+	font-size:13px;
+	color:#03c;
+}
+#footer p a {
+	color:#03c;
+	text-decoration:none;
+}
+#footer p a:hover {
+	text-decoration:underline;
+}
+
+.clear {
+	clear:both;
+}
+
+/* show css code */
+
+#show #main #container {
+	float:left;
+	width:510px;
+	margin:0;
+	background:url(images/container_bg_b2.gif) repeat-y 0 0;
+}
+#show #main #container h1 {
+	width:470px;
+	margin:0 0 8px 0;
+	background:url(images/container_bg_b1.jpg) no-repeat left top;
+}
+#show #main #container p {
+	width:470px;
+}
+#show #main #container h6 {
+	width:470px;
+	height:26px;
+	margin:0;
+	padding:0 20px;
+	line-height:16px;
+	text-align:center;
+	font-size:13px;
+	color:#666;
+	background:url(images/container_bg_b3.gif) no-repeat left bottom;
+}
+#show #main #linkarea {
+	float:right;
+	width:240px;
+}
+#show #main #linkarea dl {
+	margin:0 0 20px 0;
+}

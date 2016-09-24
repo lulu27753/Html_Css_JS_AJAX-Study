@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="decision.css">
+</head>
+<body>
+	<div>
+		<img id="sceneimg" src="scene0.png" alt="Stick Figure Adventure"></img>
+		<div id="scenetext"></div>
+		<span>  Please choose:
+		<span id="decision1" class="decision" onclick="changeScene(1)" onmouseover="this.className='decisionhover'" onmouseout="this.className='decision'">Start Game</span>
+		<span id="decision2" class="decision" onclick="changeScene(2)" onmouseover="this.className='decisionhover'" onmouseout="this.className='decision'"></span>
+		</span>
+	</div>
+	<div id="history" style="background-color:#EEEEEE"></div>
+	<script src="decision.js"></script>
+</body>
+</html>

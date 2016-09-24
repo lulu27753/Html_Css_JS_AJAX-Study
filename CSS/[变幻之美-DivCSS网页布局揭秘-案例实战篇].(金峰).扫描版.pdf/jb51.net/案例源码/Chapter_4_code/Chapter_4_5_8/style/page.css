@@ -1,0 +1,266 @@
+#list {
+	float:left;
+	width:590px;
+	margin:0 0 10px 10px;
+	background:url(image/main_con_bg.png) repeat-y -600px 0;
+	display:inline;
+}
+#list h3 {
+	float:left;
+	width:590px;
+	height:28px;
+	line-height:30px;
+	text-indent:25px;
+	font-size:13px;
+	background:url(image/main_con_bg.png) no-repeat 0 0;
+	overflow:hidden;
+}
+#list h3 a {
+	color:#000;
+}
+
+#list ul {
+	float:left;
+	width:395px;
+	margin:6px 0 12px 12px;
+	display:inline;
+}
+#list ul li {
+	float:left;
+	padding-top:2px;
+	line-height:23px;
+	color:#000;
+}
+#list ul li a {
+	display:block;
+	width:395px;
+	color:#000;
+	border-bottom:1px dashed #06f;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+#list ul li a:hover {
+	border-bottom:1px solid #06f;
+	color:#03c;
+	text-decoration:none;
+}
+
+#pagebar {
+	float:left;
+	width:578px;
+	height:32px;
+	padding-left:12px;
+	font-size:13px;
+	background:url(image/main_con_bg.png) no-repeat -1200px bottom;
+}
+#pagebar a,#pagebar span {
+	display:block;
+	float:left;
+	margin-right:4px;
+	padding:2px 5px;
+	border:1px solid #f30;
+	color:#fff;
+	font-weight:800;
+	background:url(image/pagebar_bg.png) repeat-x 0 0;
+}
+#pagebar a:hover {
+	border:1px solid #03c;
+	background-position:0 -30px;
+	text-decoration:none;
+}
+#pagebar span {
+	border:1px solid #333;
+	background-image:none;
+	background:#666;
+}
+
+.list_gg_a {
+	float:right;
+	width:158px;
+	height:248px;
+	margin:10px 12px 0 0;
+	border:1px solid #690;
+	display:inline;
+}
+
+.banner_sider_b {
+	float:left;
+	width:298px;
+	height:204px;
+	margin-bottom:10px;
+	border:1px solid #f60;
+}
+.banner_sider_b a {
+	display:block;
+	width:292px;
+	height:198px;
+	margin:3px;
+	overflow:hidden;
+}
+
+
+#article {
+	float:left;
+	width:590px;
+	margin:0 0 10px 10px;
+	background:url(image/main_con_bg.png) repeat-y -600px 0;
+	display:inline;
+}
+
+#article h3 {
+	float:left;
+	width:590px;
+	height:28px;
+	line-height:30px;
+	text-indent:25px;
+	font-size:13px;
+	background:url(image/main_con_bg.png) no-repeat 0 0;
+	overflow:hidden;
+}
+#article h3 a {
+	color:#000;
+}
+
+#article #article_nav {
+	float:left;
+	width:542px;
+	height:25px;
+	padding:0 24px;
+	line-height:25px;
+	background:url(image/article_nav_bg.gif) no-repeat 0 0;
+}
+#article #article_nav li.article_nav_a {
+	float:left;
+}
+#article #article_nav li.article_nav_b {
+	float:right;
+	text-align:right;
+}
+#article #article_nav li {
+	width:265px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+#article #article_nav li a {
+	color:#000;
+}
+#article #article_nav li a:hover {
+	color:#03c;
+}
+
+#article h1 {
+	float:left;
+	width:590px;
+	height:32px;
+	line-height:32px;
+	font-size:14px; 
+	text-align:center;
+	color:#c30;
+	background:url(image/article_nav_bg.gif) no-repeat 0 -25px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+#article #article_con {
+	float:left;
+	width:560px;
+	margin:10px 0 10px 15px;
+	line-height:20px;
+	font-size:13px;
+	color:#000;
+	display:inline;
+}
+#article #article_con p {
+	margin:4px 0;
+	line-height:20px;
+	text-indent:2em;
+	font-size:13px;
+}
+#article #article_con img {
+	display:block;
+	margin:8px auto;
+	padding:2px;
+	border:1px solid #ccc;
+	text-align:center;
+}
+
+#article h6 {
+	float:left;
+	width:590px;
+	height:22px;
+	margin:5px 0;
+	line-height:24px;
+	text-indent:15px;
+	color:#060;
+	background:url(image/article_nav_bg.gif) no-repeat 0 -60px;
+	overflow:hidden;
+}
+#article h6 a {
+	line-height:24px;
+	font-weight:100;
+	color:#060;
+}
+#article h6 a:hover {
+	color:#03c;
+}
+
+#article h5 {
+	float:left;
+	width:590px;
+	height:26px;
+	line-height:26px;
+	text-indent:15px;
+	font-size:13px;
+	font-weight:100;
+	color:#333;
+	background:url(image/article_nav_bg.gif) no-repeat 0 -90px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+#article h5 strong {
+	color:#f30;
+}
+
+#article_similar {
+	float:left;
+	width:580px;
+	padding:2px 5px;
+	background:url(image/main_con_bg.png) no-repeat -1200px bottom;
+}
+#article_similar li {
+	float:left;
+	width:289px;
+	height:21px;
+	line-height:21px;
+	color:#333;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+#article_similar li a {
+	color:#333;
+}
+#article_similar li a:hover {
+	color:#03c;
+}
+
+.banner_main_a {
+	float:left;
+	width:588px;
+	height:88px;
+	margin:0 0 10px 10px;
+	border:1px solid #f90;
+	display:inline;
+}
+.banner_main_a a {
+	display:block;
+	width:580px;
+	height:80px;
+	margin:4px;
+	overflow:hidden;
+}
+

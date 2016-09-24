@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size: 12px;
+	list-style-type: none;
+	text-decoration: none;
+}
+body{
+	background:#e8f5ff url(images/header_bg.jpg) repeat-x 0 0;
+} /*变*/
+#header{
+
+	width: 776px;
+	height: 130px;/*变-110px*/
+	margin: 0 auto 20px auto;
+}
+#header #logo{
+	float: left;
+	margin-top: 25px;/*变：15px*/
+	background: url(images/logo.gif) no-repeat 0 0;
+}
+#header #logo a{
+	display: block;
+	width: 138px;
+	height: 45px;
+	text-indent: 150px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#header #slogan{
+	float: left;
+	width: 256px;
+	height: 35px;
+	margin:32px 0 0 28px;/*变23px 0 0 28px*/
+	background: url(images/slogan.gif) no-repeat 0 0;
+	text-indent: 260px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#header #search{
+	float: right;
+	width: 226px;
+	height: 20px;
+	margin-top: 27px;/*变：22px*/
+}
+#header #search #keyword{
+	float: left;
+	width: 172px;
+	height: 18px;
+	line-height: 18px;/*针对输入文本*/
+	color: #06f;/*针对输入文本*/
+	border: 1px solid #999;
+	background:url(images/search_ico.jpg) no-repeat 0 0 #fff;
+	text-indent: 20px;
+}
+#header #search #search_btn{
+	float: right;
+	width: 46px;
+	height: 20px;
+}
+#header ul{
+	float: left;
+	width: 776px;
+	height: 23px;/*变：33px*/
+	margin-top: 30px;/*变：17px*/
+	/*background: url(images/nav_line.gif) repeat-x 0 0;*//*删除*/
+}
+#header ul li{
+	float: left;
+	margin: 0 5px 0 0;/*变：7px 1px 0 0*/
+}
+#header ul li#menu_7{
+	margin-right: 0;
+}
+#header ul li a{
+	display: block;
+	/*width: 110px;
+	height: 26px;
+	text-align: center;*/
+	padding: 0 10px;
+	line-height: 23px;/*变：26px*/
+	color: #000;/*变#069*/
+	/*background: #e3e3e3;*/
+	overflow: hidden;
+
+}
+
+#header ul li a:hover{
+	color: #060;/*变：#000*/
+	background: #fff;/*变：#ccc*/
+}
+#main{
+	width: 776px;
+	margin: 0 auto;
+}
+#main #container{
+	float: left;/*变right*/
+	width: 535px;/*变556px*/
+	border-right: 1px solid #06f;/*变：新增*/
+	padding-bottom: 10px;
+}
+#main #container h1{
+	float: left;/*新增*/
+	width: 516px;
+	margin: 0 auto 5px auto;/*变：0 auto 10px auto*/
+	border-bottom: 1px dashed #999;/*新增*/
+	line-height: 26px;/*变：16px*/
+	color: #000;/*变：#06f*/
+	font-size: 14px;
+}
+#main #container p{
+	float: left;/*新增*/
+	width: 516px;/*变：448px*/
+	margin: 8px auto;
+	line-height: 22px;
+	font-size: 13px;
+	text-indent: 2em;
+}
+#main #sider{
+	float: right;/*变：left*/
+	width: 220px;
+}
+.siderlist{
+	float: left;
+	margin-bottom: 20px;
+}
+.siderlist h3{
+	width: 220px;
+	height: 24px;
+	line-height: 26px;
+	text-indent: 6px;
+	background: #f90 url(images/siderlist_corner.gif) no-repeat right top; /*变：#e7e7e7*/
+	overflow: hidden;
+}
+.siderlist h3 a{
+	font-size: 14px;
+	color: #fff;/*#333*/
+}
+.siderlist h3 a:hover{
+	color: #333;/*#06f*/
+}
+.siderlist p{
+	width: 200px;
+	padding: 6px 9px;
+	border: 1px solid #f90;/*#e7e7e7*/
+	border-width: 0 1px;
+	line-height: 18px;
+	text-indent: 2em;
+	color: #399;/*#999*/
+}
+.siderlist ul{
+	width: 220px;
+}
+.siderlist ul li{
+	float: left;
+	width: 64px;
+	margin-right: 14px;
+}
+.siderlist ul li.listshow_c{
+	margin-right: 0;
+}
+.siderlist ul li a{
+	display: block;
+	border: 1px solid #f90;/*#ccc*/
+}
+.siderlist ul li a:hover{
+	border: 1px solid #00f;/*#06f*/
+}
+.siderlist ul li a img{
+	width: 60px;
+	height: 60px;
+	margin: 1px;
+	border: 0;
+}
+
+#footer{
+	clear: both;
+	/*width: 776px;*//*删除*/
+	border-top: 1px solid #06f;
+	margin: 0 auto;
+	height: 40px;/*新增*/
+	background: url(images/footer_bg.jpg) repeat-x 0 0;/*新增*/
+}
+#footer p{
+	/*height: 32px;*//*删除*/
+	line-height: 40px;/*变：32px*/
+	text-align: center;/*新增*/
+	color: #000;/*变：#06f*/
+}
+#footer p a{
+	color: #000;/*变#06f*/
+}
+#footer p a:hover{
+	color: #06f;/*变#000*/
+	text-decoration: underline;
+}

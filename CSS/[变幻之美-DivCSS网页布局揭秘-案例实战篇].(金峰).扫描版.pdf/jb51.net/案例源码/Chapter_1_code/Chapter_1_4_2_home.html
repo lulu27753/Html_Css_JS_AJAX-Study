@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>从Hello World开始Div CSS网页布局</title>
+<style type="text/css">
+body {
+	margin:0;
+	padding:0;
+	color:#000;
+}
+#top {
+	height:8px;
+	border-bottom:1px dotted #000;
+	background:#65a9e6;
+	overflow:hidden;
+}
+#header {
+	width:760px;
+	height:270px;
+	margin:0 auto 18px auto;
+}
+#header #logoarea {
+	float:left;
+	width:760px;
+	height:80px;
+	background:url(images/logoarea_bg.jpg) no-repeat right top;
+}
+#header #logoarea #logo {
+	float:left;
+	width:330px;
+	height:62px;
+	margin-top:9px;
+	background:url(images/logo.jpg) no-repeat 0 0;
+}
+#header #logoarea #logo a {
+	display:none;
+}
+#header #banner {
+	float:left;
+	width:760px;
+	height:190px;
+	background:url(images/banner.jpg) no-repeat 0 0;
+}
+#main {
+	width:760px;
+	margin:0 auto;
+}
+#main #container {
+	float:left;
+	width:760px;
+	margin-bottom:18px;
+	background:#09f;
+}
+#main #linkarea {
+	float:left;
+	width:760px;
+	background:#6c6;
+}
+#footer {
+	width:760px;
+	height:40px;
+	margin:18px auto 0 auto;
+	background:url(images/footer_bg.gif) no-repeat 0 0;
+}
+#footer p {
+	line-height:40px;
+	text-align:center;
+	font-size:13px;
+	color:#03c;
+}
+#footer p a {
+	color:#03c;
+	text-decoration:none;
+}
+#footer p a:hover {
+	text-decoration:underline;
+}
+
+.clear {
+	clear:both;
+}
+</style>
+</head>
+
+<body id="home">
+<div id="top"></div>
+<div id="header">
+	<div id="logoarea">
+		<h3 id="logo"><a href="#" title="从Hello World开始">Hello World</a></h3>
+	</div>
+	<div id="banner"></div>
+</div>
+<div id="main">
+	<div id="container">
+		<h1><a href="#" title="">给DIV CSS初学者的建议</a></h1>
+		<p>普及Web标准与CSS技术已成为一种潮流与趋势，目前以DIV CSS进行Web开发已成为一种时尚。需要不断的提高自己的技能以适应这种变革已迫在眉睫。在学习的过程中会面临许多疑惑与困难，应该静下心来认真的思考这样的开发模式，仔细的去理解变革对于Web发展的意义，切不可片面的认为Web标准即是以DIV CSS进行网页布局。学习的目标在于以XHTML建立良好的语义化的结构，结合CSS最大程度使表现与内容相分离。这也是Web标准化的意义所在。并不是说以DIV CSS构架网站就是Web标准化，如果以Table时代的思路去开发，只是将Table标签替换为DIV标签，毫无意义。<a href="#" title="">详情&gt;&gt;&gt;</a></p>
+	</div>
+	<div id="linkarea">
+		<dl id="article">
+			<dt><a href="http://www.52css.com/"><img src="images/links_a.jpg" alt="" title="" /></a></dt>
+			<dd>CSS 网页布局的相关文章，其中发布了很多实例教程，以及关于Web 标准理念的文章等。内容精彩丰富，并且尽量做到每日更新，相信它一定会成为您学习的良师益友。<a href="#" title="">详情&gt;&gt;&gt;</a></dd>
+		</dl>
+		<dl id="showcase">
+			<dt><a href="http://www.52css.com/"><img src="images/links_b.jpg" alt="" title="" /></a></dt>
+			<dd>建立符合Web 标准的网站在国内已经形成风气，相对而言还是比较落后，更多的是形式主义而并非是实质上的符合标准，CSS 酷站欣赏提供众多的实例是您学习的典范。<a href="#" title="">详情&gt;&gt;&gt;</a></dd>
+		</dl>
+		<dl id="template">
+			<dt><a href="http://www.52css.com/"><img src="images/links_c.jpg" alt="" title="" /></a></dt>
+			<dd>CSS模板下载，提供丰富的CSS共享模板，您可以看到别人的编码与布局技巧，您可以看看别人是如何工作的，这里也可能解决您布局中的一些困惑，您一定会有收获。<a href="#" title="">详情&gt;&gt;&gt;</a></dd>
+		</dl>
+	</div>
+	<div class="clear"></div>
+</div>
+<div id="footer">
+	<p>版权所有：CSS Web Design 我爱CSS - <a href="http://www.52css.com/" title="">52CSS.com</a> 未经本站同意 严禁转载</p>
+</div>
+</body>
+</html>

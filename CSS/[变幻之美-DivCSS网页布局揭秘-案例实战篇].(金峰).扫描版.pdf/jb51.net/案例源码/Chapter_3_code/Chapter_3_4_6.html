@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>古典风格古色古香的网站</title>
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size:13px;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a img {
+	border:0;
+}
+body {
+	background:#f3f3eb;
+}
+#wrap {
+	width:1002px;
+	margin:0 auto;
+	background:url(images/wrap_bg.gif) repeat-y 0 0;
+}
+#column {
+	float:left;
+	width:46px;
+	height:625px;
+	padding-top:105px;
+	background:url(images/column_bg.gif) no-repeat right top;
+	overflow:hidden;
+}
+#column ul {
+	float:right;
+	width:13px;
+	margin:0 13px 20px 0;
+}
+#column ul {
+	display:inline;
+}
+#column ul li {
+	float:left;
+	width:13px;
+	padding-bottom:10px;
+	line-height:14px;
+}
+#column ul li a {
+	color:#ffc;
+}
+#column ul li a:hover {
+	color:#ff6;
+	text-decoration:none;
+}
+
+#main {
+	float:left;
+	width:715px;
+	border-width:9px 3px 6px 0; 
+	border-style:solid;
+	border-color:#900;
+	background:#f3f3eb url(images/main_bg.gif) repeat-y right 86px;
+}
+#main #banner {
+	float:left;
+	width:715px;
+	height:75px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #000;
+	overflow:hidden;
+}
+#main #nav {
+	float:left;
+	width:675px;
+	height:35px;
+	margin-bottom:10px;
+	padding-left:25px;
+	background:url(images/nav_line.png) no-repeat 0 28px;
+	overflow:hidden;
+}
+#main #nav li {
+	float:left;
+	padding:0 8px;
+	line-height:28px;
+}
+#main #nav li a {
+	color:#c00;
+	font-weight:800;
+}
+#main #footer{
+	float:left;
+	width:700px;
+	padding-top:7px;
+	border-bottom:3px solid #999;
+	margin-bottom:1px;
+	background:url(images/nav_line.png) no-repeat 0 -7px;
+	overflow:hidden;
+
+}
+
+#main #footer ul {
+	float:left;
+	width:680px;
+	padding-left:20px;
+	background: url(images/footer_ul_bg.gif) repeat 0 0;
+	overflow:hidden;
+}
+#main #footer ul#footer_nav {
+	height:28px;
+}
+#main #footer ul#footer_links {
+	height:55px;
+}
+#main #footer ul li {
+	float:left;
+	width:70px;
+	margin-right:4px;
+	line-height:28px;
+	text-align:center;
+}
+#main #footer ul li {
+	display:inline;
+}
+#main #footer ul li a {
+	color:#666;
+}
+#main #footer ul li a:hover {
+	color:#333;
+}
+#main #footer ul#footer_nav li a {
+	color:#333;
+}
+#main #footer ul#footer_nav li a:hover {
+	color:#c00;
+}
+#sider { 
+	float:right; 
+	width:236px;
+}
+#sider #sider_tags { 
+	float:left; 
+	width:214px; 
+	height:20px; 
+	padding-left:22px; 
+	background:#900; 
+	overflow:hidden;
+}
+#sider #sider_tags li { 
+	float:left; 
+	width:30px; 
+	margin-right:10px; 
+	line-height:20px; 
+	text-align:center;
+}
+#sider #sider_tags li { 
+	display:inline;
+}
+#sider #sider_tags li a { 
+	color:#ffc;
+}
+#sider #sider_tags li a:hover { 
+	color:#ff9;
+}
+#sider h4 { 
+	float:left;
+}
+#sider h4 a { 
+	display:block; 
+	width:236px; 
+	height:168px; 
+	text-indent:240px; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	background:url(images/sider_logo.png) no-repeat 0 0;
+}
+#sider #sider_pics { 
+	float:left; 
+	width:236px; 
+	height:538px; 
+	margin-top:12px; 
+	background:url(images/sider_wutingqiao.png) no-repeat 1px bottom;
+}
+#sider #sider_pics li { 
+	float:left; 
+	margin:0 0 20px 39px;
+}
+#sider #sider_pics li { 
+	display:inline;
+}
+#sider #sider_pics li a { 
+	display:block; 
+	width:158px; 
+	height:122px; 
+	overflow:hidden;
+}
+.clear {
+	clear:both;
+}
+
+#main #slist_title { 
+	float:left; 
+	width:700px; 
+	height:32px; 
+	margin:-10px 0 20px 0;
+}
+#main #slist_title h3 { 
+	float:left; 
+	width:210px; 
+	height:32px; 
+	text-indent:220px; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	background:url(images/slist_title_h3.png) no-repeat 0 0;
+}
+#main #slist_title span { 
+	float:right; 
+	width:400px; 
+	height:20px; 
+	margin:12px 10px 0 0; 
+	line-height:20px; 
+	text-align:right; 
+	color:#666; 
+}
+#main #slist_title span a { 
+	color:#666;
+}
+#main #slist_title span a:hover { 
+	color:#c00;
+}
+
+#main #show_pic { 
+	float:left; 
+	width:98px; 
+	height:288px; 
+	margin:6px 0 0 26px; 
+	display:inline;
+}
+#main #show_pic a { 
+	display:block; 
+	width:96px; 
+	height:286px; 
+	border:1px solid #999; 
+	background:#ccc; 
+}
+#main #show_pic a img { 
+	width:88px; 
+	height:278px; 
+	margin:3px; 
+	border:1px solid #666; 
+	overflow:hidden;
+}
+#main #show_pic a:hover{ 
+	border:1px solid #c30; 
+	background:#fff;
+}
+#main #show_pic a:hover img { 
+	border:1px solid #c00;
+}
+
+#main #show_list { 
+	float:right; 
+	width:538px; 
+	height:460px; 
+	margin-right:26px; 
+	display:inline; 
+	background:url(images/show_list_bg.jpg) no-repeat right top; 
+	overflow:hidden;
+}
+#main #show_list li { 
+	float:left;
+}
+#main #show_list li a { 
+	display:block; 
+	width:486px; 
+	height:29px; 
+	border-bottom:1px solid #ddd; 
+	line-height:29px; 
+	font-size:14px; 
+	text-indent:30px; 
+	color:#000; 
+	background:url(images/icons.png) no-repeat 11px -53px; 
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	overflow:hidden;
+}
+#main #show_list li a:hover { 
+	border-bottom:1px solid #999; 
+	color:#c00; 
+	text-decoration:none; 
+	background-position:11px -83px;
+}
+
+#main #pagebar { 
+	float:right; 
+	width:478px; 
+	height:22px; 
+	margin:0 26px 10px 0; 
+	padding-right:60px; 
+	line-height:22px; 
+	text-align:right; 
+	display:inline;
+}
+#main #pagebar span { 
+	padding-right:15px; 
+	color:#333; 
+	font-weight:800;
+}
+#main #pagebar a { 
+	padding:0 5px; 
+	color:#c00;
+}
+#main #pagebar a:hover { 
+	color:#000;
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="wrap">
+	<div id="column">
+		<ul>
+			<li><a href="#">扬州瘦西湖</a></li>
+			<li><a href="#">扬州八怪</a></li>
+			<li><a href="#">扬州园林</a></li>
+		</ul>
+		<ul>
+			<li><a href="#">扬州美女</a></li>
+			<li><a href="#">扬州三把刀</a></li>
+			<li><a href="#">烟花三月下扬州</a></li>
+		</ul>
+	</div><!--column_End-->
+	<div id="sider">
+		<ul id="sider_tags">
+			<li><a href="#">古典</a></li>
+			<li><a href="#">园林</a></li>
+			<li><a href="#">运河</a></li>
+			<li><a href="#">审美</a></li>
+			<li><a href="#">更多</a></li>
+		</ul>
+		<h4><a href="http://www.wutingqiao.com/" title="扬州文化">扬州文化</a></h4>
+		<ul id="sider_pics">
+			<li><a href="#"><img src="images/sider_pic1.jpg" alt="五亭桥" /></a></li>
+			<li><a href="#"><img src="images/sider_pic2.jpg" alt="文昌阁" /></a></li>
+			<li><a href="#"><img src="images/sider_pic3.jpg" alt="何园" /></a></li>
+		</ul>		
+	</div><!--sider_End-->
+	<div id="main">
+		<div id="banner">
+			<a href="http://www.wutingqiao.com/"><img src="images/banner.jpg" alt="扬州文化" /></a>
+		</div>
+		<ul id="nav">
+			<li><a href="http://www.wutingqiao.com/">网站首页</a></li>
+			<li><a href="#">园林旅游</a></li>
+			<li><a href="#">传统文化</a></li>
+			<li><a href="#">古典文化</a></li>
+			<li><a href="#">思想学派</a></li>
+			<li><a href="#">维扬美食</a></li>
+			<li><a href="#">现代扬州</a></li>
+			<li><a href="#">烟花三月</a></li>
+			<li><a href="#">雁过留声</a></li>
+		</ul>
+
+		<div id="slist_title">
+			<h3>园林旅游</h3>
+			<span>您的位置：<a href="#">网站首页</a>&gt;&gt;<a href="#">园林旅游</a></span>
+		</div>
+
+		<div id="show_pic"><a href="#"><img src="images/show_pic.jpg" alt="" /></a></div>
+		<ul id="show_list">
+			<li><a href="#">卢氏盐商住宅与古巷风韵</a></li>
+			<li><a href="#">扬州蜀岗瘦西湖风景区</a></li>
+			<li><a href="#">扬州 寄啸山庄（何园）</a></li>
+			<li><a href="#">京口瓜洲一水间 钟山只隔数重山 重游瓜洲古渡</a></li>
+			<li><a href="#">吴道台宅第与朱自清故居</a></li>
+			<li><a href="#">扬州八怪纪念馆</a></li>
+			<li><a href="#">古巷风情游所领略的古扬州独特韵味</a></li>
+			<li><a href="#">新渡江桥为扬州桥梁建筑增色</a></li>
+			<li><a href="#">扬州文峰塔与文峰古寺介绍</a></li>
+			<li><a href="#">高旻寺及与其相隔一水的普光明殿</a></li>
+			<li><a href="#">近期开发的生态旅游区 - 凤凰岛</a></li>
+			<li><a href="#">扬州茱萸湾公园成为市民休闲的又一好去处</a></li>
+			<li><a href="#">扬州平山堂与鉴真大师的渊源</a></li>
+			<li><a href="#">扬州个园的园林特色简介</a></li>
+			<li><a href="#">古运河的古老风情与现代航运价值</a></li>
+		</ul>
+		<p id="pagebar"><span>共X页 第X页</span> <a href="#">最前页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">最末页</a></p>
+
+		<div id="footer">
+			<ul id="footer_nav">
+				<li><a href="http://www.wutingqiao.com/">网站首页</a></li>
+				<li><a href="#">园林旅游</a></li>
+				<li><a href="#">传统文化</a></li>
+				<li><a href="#">古典文化</a></li>
+				<li><a href="#">思想学派</a></li>
+				<li><a href="#">维扬美食</a></li>
+				<li><a href="#">现代扬州</a></li>
+				<li><a href="#">烟花三月</a></li>
+				<li><a href="#">雁过留声</a></li>
+			</ul>
+			<ul id="footer_links">
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">友情链接</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div><!--main_End-->
+	<div class="clear"></div>
+</div><!--wrap_End-->
+</body>
+</html>

@@ -1,0 +1,178 @@
+#home_pic{
+	float: left;
+	width: 310px;
+	height: 215px;
+	margin: 0 0 10px 10px;
+	padding: 4px;
+	border: 1px dashed #f60;
+	background: #fff;
+	display: inline;
+}
+#paihang{
+	float: left;
+	width: 260px;
+	height: 225px;
+	margin: 0 0 10px 10px;
+	background: url(image/paihang_bg.png) no-repeat 0 0;
+}
+#paihang li{
+	float: left;
+	margin: 6px 0 0 7px;
+	display: inline;
+}
+#paihang li a{
+	display: block;
+	width: 236px;
+	height: 42px;
+	padding: 8px 0 0 10px;
+	background:  url(image/paihang.png) 0 0 no-repeat;
+
+}
+#paihang li a strong{
+	display: block;
+	width: 195px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 13px;
+	color: #666;
+	cursor: hand;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+#paihang li a em,#paihang li a span{
+	height: 18px;
+	line-height: 18px;
+	font-style: normal;
+	color: #999;
+}
+#paihang li a span{
+	padding: 1em;
+}
+#paihang li a em{
+	color: #f60;
+}
+#paihang li#ph1_1 a{
+	background-position: 0 0;
+}
+#paihang li#ph1_2 a{
+	background-position: 0 -50px;
+}
+#paihang li#ph1_3 a{
+	background-position: 0 -100px;
+}
+#paihang li#ph1_4 a{
+	background-position: 0 -150px;
+}
+#paihang li#ph1_1 a:hover{
+	background-position: -246px 0;
+}
+#paihang li#ph1_2 a:hover{
+	background-position: -246px -50px;
+}
+#paihang li#ph1_3 a:hover{
+	background-position: -246px -100px;
+}
+#paihang li#ph1_4 a:hover{
+	background-position: -246px -150px;
+}
+#paihang li a:hover{
+	text-decoration: none;
+}
+#paihang li a:hover strong{
+	color:#c00 ;
+}
+#paihang li a:hover em{
+	color:#03c ;
+}
+#paihang li a:hover span{
+	color:#333 ;
+}
+.homelist{
+	float: left;
+	width: 290px;
+	height: 180px;
+	margin: 0 0 10px 10px;
+	background:  url(image/list_bg.png) 0 0 no-repeat;
+}
+.homelist h3{
+	float: left;
+	width: 174px;
+	height: 34px;
+	padding-left: 26px;
+	overflow: hidden;
+}
+.homelist h3 a{
+	line-height: 40px;
+	font-size: 13px;
+	color: #000;
+}
+.homelist p{
+	float: right;
+	width: 53px;
+	height: 34px;
+	overflow: hidden;
+}
+.homelist p a{
+	line-height: 40px;
+	color: #333;
+}
+.homelist ul{
+	float: left;
+	width: 265px;
+	height: 135px;
+	margin: 5px 0 0 15px;
+	overflow: hidden;
+	display: inline;
+}
+.homelist ul li{
+	float: left;
+	width: 265px;
+	line-height: 22px;
+	font-size: 13px;
+	color: #333;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+.homelist ul li a{
+	color: #333;
+}
+.homelist ul li a:hover{
+	color: #03c;
+}
+#col1{
+	background-position: 0 0;
+}
+#col2{
+	background-position: 0 -180px;
+}
+#col3{
+	background-position: 0 -360px;
+}
+#col4{
+	background-position: 0 -540px;
+}
+#friendlinks{
+	width: 880px;
+	height: 18px;
+	margin: 0 auto;
+	padding: 6px 10px 16px 10px;
+	line-height: 18px;
+	background:  url(image/headerfooter_bg.png) 0 -300px no-repeat;
+}
+#friendlinks a{
+	color: #666;
+}
+#friendlinks a:hover{
+	color: #333
+}
+#friendlinks .color_a{
+	color: #c00;
+}
+#friendlinks a.color_b{
+	color: #f60;
+}
+#friendlinks a.color_b:hover{
+	color: #03c;
+}

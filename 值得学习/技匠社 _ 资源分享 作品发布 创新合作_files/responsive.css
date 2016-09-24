@@ -1,0 +1,1060 @@
+
+
+@media (max-width: 1550px) {
+	.home-with-sidebar .wrapper .hidden-bar.left-align {
+	    right: -150%;
+	    left: auto;
+	}
+	.home-with-sidebar .wrapper .hidden-bar.left-align .hidden-bar-closer {
+		display: block;
+	}
+	.home-with-sidebar .wrapper {
+		margin-left: 0;
+	}
+	.home-with-sidebar .wrapper .main-menu-wrap {
+	  display: block;
+	}
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-fluid {
+    padding: 0;
+  }    
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /*======== 1024px screen Styles =================================*/
+    
+/*=================================================Start case-study-2.html page css============================*/   
+.about-products-left-img img {
+  display: none;
+}
+.about-the-products-right {
+  padding-left: 0;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}    
+
+.process-right-img img {
+  display: none;
+}    
+.single-step.floatright {
+  float: left;
+  margin-left: 7px;
+  width: 100px;
+}
+.process-step {
+  margin-bottom: 70px;
+}
+.our-process-left {
+  padding-bottom: 60px;
+}    
+/*=================================================End case-study-2.html page css============================*/    
+/*================================================Start team-3.html page css=================================*/
+.single-member-item.join-us-our-team {
+  padding-bottom: 138px;
+  padding-top: 60px;
+}    
+/*================================================End team-3.html page css===================================*/    
+/*================================================Start about.html page css==================================*/    
+.our-skills.about-page .our-skill-text {
+  padding-left: 60px;
+}
+.fact-box .single-fact-box {
+  padding: 70px 40px 60px;
+}       
+/*================================================End about.html page css===================================*/     
+/*================================================Start blog-details.html page css==========================*/
+.pull-right .sidebar-wrapper {
+  padding-left: 30px;
+}
+/*================================================End blog-details.html page css============================*/
+/*================================================Start blog-left.html page css=============================*/ 
+.pull-left .sidebar-wrapper {
+  padding-right: 30px;
+}    
+/*================================================End blog-left.html page css===============================*/ 
+/*================================================Start case-study.html page css=======================*/    
+.offer-text img {
+  padding-bottom: 20px;
+}
+.case-study .img-box img {
+  margin-left: 0;
+}
+/*================================================End case-study.html page css=========================*/      
+/*================================================Start contact-1.html page css========================*/    
+.contact-info .content {
+  padding-left: 25px;
+}  
+/*================================================End contact-1.html page css========================*/    
+/*================================================Start faq.html page css============================*/    
+.faq-search input[type="text"] {
+  width: 74%;
+}    
+/*================================================End faq.html page css==============================*/ 
+/*================================================Start index.html page css==========================*/       
+.featured-service .full-img img {
+  display: none;
+}
+.video-popup {
+  width: 100%;
+}
+/*================================================End index.html page css==========================*/     
+/*================================================Start index2.html page css=======================*/   
+.single-blog-post .content {
+  padding: 5px 20px 0 20px;
+}    
+/*================================================End index2.html page css=========================*/  
+/*================================================Start index4.html page css=======================*/
+.about-me-address li p {
+  width: 130px;
+}
+.about-me-info {
+  padding-top: 60px;
+}
+.about-me-address ul li {
+  line-height: 58px;
+}
+.work-experience-left {
+  padding-bottom: 5px;
+}
+/*================================================End index4.html page css=========================*/    
+/*================================================Start portfolio5.html page css=========================*/     
+.portfolio-filter li span {
+  padding: 0 30px;
+}
+/*================================================End portfolio5.html page css===========================*/     
+/*================================================Start pricing.html page css============================*/ 
+.our-price.section-padding.anim-5-all.gray-bg {
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+.single-price-box {
+  margin-bottom: 30px;
+}    
+/*================================================End pricing.html page css==============================*/   
+/*================================================Start team-2.html page css=============================*/    
+.single-team-member .img-holder .social-icons ul {
+  padding: 0 10px;
+} 
+/*================================================End team-2.html page css===============================*/    
+    
+    
+.portfolio-style-two .single-portfolio {
+  margin-top: 8px;
+  padding: 0 7.5px;
+}    
+    
+    
+    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/*======== 768px screen Styles ================================*/
+  
+/*=================================================Start case-study-2.html page css============================*/   
+.about-products-left-img img {
+  float: none;
+  max-width: 100%;
+  text-align: center;
+}
+.about-the-products-right {
+  padding-bottom: 40px;
+  padding-left: 0;
+  padding-top: 40px;
+}
+
+.process-right-img img {
+  float: none;
+  max-width: 100%;
+  text-align: center;
+}    
+.single-step.floatright {
+  float: left;
+  margin-left: 6px;
+  width: 100px;
+}    
+.process-step {
+  margin-bottom: 60px;
+}    
+.our-process-left {
+  padding-bottom: 60px;
+}     
+.col-lg-6.process-right {
+  padding-left: 15px;
+}
+.col-lg-6.about-products-left {
+  padding-right: 15px;
+} 
+/*=================================================End case-study-2.html page css============================*/ 
+    
+/*================================================Start team-3.html page css=================================*/    
+.single-member-item.join-us-our-team {
+  padding-bottom: 95px;
+  padding-top: 30px;
+}   
+.single-member-item.join-us-our-team .join-us a {
+  padding: 5px 13px;
+  width: 130px;
+}    
+/*================================================End team-3.html page css=================================*/    
+/*================================================Start about.html page css================================*/     
+.our-skills.about-page .our-skill-text {
+  padding-left: 15px;
+  padding-top: 30px;
+}
+.fact-box .single-fact-box {
+  padding: 50px 15px 50px;
+} 
+.single-fact-counter.has-padding-left {
+  padding-left: 80px;
+  padding-bottom: 30px;
+}    
+.footer-menu {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+}   
+/*================================================End about.html page css=================================*/
+    
+/*================================================Start blog-details.html page css========================*/     
+.pull-right .sidebar-wrapper {
+  padding-left: 0;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+.single-post-page .comment-form input {
+  margin-bottom: 20px;
+} 
+/*================================================End blog-details.html page css========================*/   
+/*================================================Start blog-left.html page css=========================*/    
+.pull-left .sidebar-wrapper {
+  padding-right: 50px;
+  padding-top: 50px;
+}    
+/*================================================End blog-left.html page css==========================*/ 
+/*================================================Start career.html page css===========================*/     
+.career-offer .sec-title {
+  padding-bottom: 30px;
+}    
+/*================================================End career.html page css=============================*/  
+/*================================================Start case-study.html page css=======================*/    
+.offer-text img {
+  padding-bottom: 20px;
+}
+.case-study .img-box img {
+  margin-left: 0;
+}
+/*================================================End case-study.html page css=========================*/     
+/*================================================Start contact-1.html page css========================*/    
+.contact-info {
+  padding-left: 0;
+  margin-top: 50px;
+}
+/*================================================End contact-1.html page css==========================*/     
+/*================================================Start contact-2.html page css========================*/     
+.contact-page-2 #contact-2-google-map {
+  margin-top: 50px;
+}
+/*================================================End contact-2.html page css========================*/ 
+/*================================================Start faq.html page css============================*/      
+.faq-search input[type="text"] {
+  width: 78%;
+}    
+/*================================================End faq.html page css==============================*/    
+/*================================================Start index.html page css==========================*/ 
+.featured-service .featured-service-left {
+  margin-left: 0px;
+  padding-bottom: 0px;
+}
+.featured-service .full-img {
+  float: none;
+  width: 100%;
+}
+.featured-service .full-img img {
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+.fact-counter {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.single-fact-counter {
+  padding-bottom: 30px;
+  padding-left: 70px;
+}
+.skills-left {
+  padding-bottom: 30px;
+}
+ul.why-choose-us-facts {
+  margin-top: 50px;
+}
+/*================================================End index.html page css=================================*/    
+/*================================================Start index2.html page css==============================*/    
+.accrodion-wrap {
+  margin-top: 50px;
+}    
+/*================================================End index2.html page css================================*/    
+/*================================================Start index3.html page css==============================*/     
+.single-footer-box {
+  margin-bottom: 30px;
+} 
+/*================================================End index3.html page css=================================*/     
+/*================================================Start index4.html page css===============================*/    
+.single-client-offer {
+  padding: 0 20px 45px;
+} 
+.about-me-info {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.skill-left-part {
+  padding-right: 0;
+  padding-bottom: 60px;
+}
+.col-md-6.home-v4-skill-name {
+  padding-left: 15px;
+  padding-top: 38px;
+}
+.education-info {
+  margin-bottom: 30px;
+  padding-left: 0;
+  padding-right: 15px;
+}
+.work-experience-left {
+  padding-bottom: 60px;
+}
+/*================================================End index4.html page css===============================*/    
+/*================================================Start portfolio5.html page css=========================*/     
+.portfolio-filter li span {
+  padding: 0 20px;
+}
+/*================================================End portfolio5.html page css===========================*/ 
+/*================================================Start pricing.html page css============================*/ 
+.our-price.section-padding.anim-5-all.gray-bg {
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+.single-price-box {
+  margin-bottom: 30px;
+}    
+/*================================================End pricing.html page css==============================*/    
+/*================================================Start services2.html page css==========================*/   
+.single-service-two {
+  padding: 0 15px 40px;
+} 
+.service-two-image-box {
+  padding-top: 50px;
+  padding-left: 15px;
+}
+/*================================================End services2.html page css============================*/      
+/*================================================Start team-1.html page css=============================*/    
+.team-page-1 .single-team-wrapper {
+  width: 25%;
+}  
+/*================================================End team-1.html page css===============================*/ 
+    
+.portfolio-style-two .single-portfolio {
+  margin-top: 8px;
+  padding: 0 7.5px;
+}       
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+}
+@media only screen and (max-width: 767px) {
+  /*======== 320px screen Styles =========*/
+ 
+/*===========Home page=====================*/
+.bg-slider.banner-two .title{
+  font-size: 45px;
+}
+
+.vegas-wrapper .type-wrap{
+  font-size: 45px;
+}
+.bg-slider.banner-two p{
+  font-size: 16px;
+}
+
+.system-message{
+  width: 300px;
+  margin-left: -150px;
+}
+
+.system-message div h2{
+  font-size: 22px;  
+}
+
+.system-message div p{
+  font-size: 16px;  
+}
+
+.resource-title .txt{
+  padding-bottom: 15px;
+}
+
+.resource-filter .actions{
+  display: none;
+}
+
+.dialog{
+  width: 320px;
+  height: 510px;
+  margin-left: -160px;
+  margin-top: -280px;
+
+}
+.dialog.register{
+  height: 560px;
+}
+
+.dialog.login article{
+  height: 340px;
+}
+.dialog.login .login-info {
+  padding:35px 10px 10px 10px;
+}
+
+.dialog.login .login-info .thm-btn.coding{
+  background-position: 47px 12px;
+}
+.dialog.login .login-info .thm-btn.coding:hover{
+  background-position: 47px 12px;
+}
+
+/*=================================================Start case-study-2.html page css=======================*/    
+.about-products-left-img img {
+  float: none;
+  max-width: 100%;
+}
+.about-the-products-right {
+  padding-left: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+} 
+ 
+.our-process-left {
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.process-step {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  margin-bottom: 280px;
+} 
+.single-step {
+  float: none;
+  width: 80px;
+  margin: 0 auto;
+}
+.single-step.floatright {
+  float: none;
+  margin: 0 auto;
+  width: 80px;
+}
+.process-step .single-step p {
+  margin: 0 0 20px;
+  padding-top: 10px;
+}    
+.process-right-img img {
+  float: none;
+  max-width: 100%;
+}
+.col-lg-6.process-right {
+  padding-left: 15px;
+}
+.col-lg-6.about-products-left {
+  padding-right: 15px;
+} 
+/*=================================================End case-study-2.html page css===========================*/    
+/*================================================Start about.html page css=================================*/     
+.our-skills.about-page .our-skill-text {
+  padding-left: 15px;
+  padding-top: 30px;
+} 
+.fact-box .single-fact-box {
+  padding: 70px 20px 60px;
+}
+.single-fact-counter.has-padding-left {
+  padding-bottom: 30px;
+  padding-left: 0;
+  text-align: center;
+}
+.text-right.footer-sociallink {
+  float: left;
+  overflow: hidden;
+}
+.col-lg-3.col-md-5.col-sm-4.col-xs-12.footer-sociallink {
+  text-align: left;
+  padding-top: 25px;
+}
+.footer-logo {
+  padding-top: 20px;
+  text-align: left;
+}
+footer {
+  padding: 40px 0;
+}    
+.footer-menu {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+}
+footer .footer-menu ul li a {
+  line-height: 25px;
+}    
+    
+/*================================================End about.html page css===================================*/   
+/*================================================Start blog-details.html page css==========================*/ 
+.single-post-page .main-content-box {
+  margin: 30px auto;
+  text-align: justify;
+  width: 300px;
+}
+.single-post-page .img-caption-box .img-box {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 300px;
+}
+.single-post-page .img-caption-box .img-box img {
+  margin-bottom: 20px;
+}
+.single-post-page .img-caption-box .text-box {
+  padding-left: 0;
+  width: 300px;
+  float: left;
+  overflow: hidden;
+}
+.single-post-page .tag-social-box .social-box {
+  float: left;
+  margin-top: 15px;
+}
+.pull-right .sidebar-wrapper{
+  padding-left: 0;
+  padding-top: 50px;
+}
+.single-post-page .comment-form input {
+  margin-bottom: 20px;
+}  
+
+.single-post-page .sidebar-wrapper{
+  display: none;
+}  
+/*================================================End blog-details.html page css==========================*/        
+/*================================================Start blog-left.html page css===========================*/    
+.pull-left .sidebar-wrapper {
+  padding-right: 0;
+  padding-top: 50px;
+} 
+.blog-content .single-blog-post .content-box .date-holder {
+  padding-right: 15px;
+}
+.blog-content .single-blog-post .content-box .content {
+  padding: 0 0 0 15px;
+}
+/*================================================End blog-left.html page css=============================*/    
+/*================================================Start career.html page css===========================*/     
+.career-offer .sec-title {
+  padding-bottom: 20px;
+}    
+/*================================================End career.html page css=============================*/      
+/*================================================Start case-study.html page css=======================*/    
+.offer-text img {
+  padding-bottom: 20px;
+}
+.case-study .img-box img {
+  margin-left: 0;
+}
+/*================================================End case-study.html page css=========================*/     
+/*================================================Start contact-1.html page css========================*/    
+.contact-info {
+  padding-left: 0;
+  margin-top: 50px;
+}   
+/*================================================End contact-1.html page css==========================*/  
+/*================================================Start contact-2.html page css========================*/    
+.contact-info .content {
+  padding-left: 10px;
+}
+.contact-page-2 #contact-2-google-map {
+  margin-top: 50px;
+  height: 300px;
+}  
+/*================================================End contact-2.html page css========================*/   
+/*================================================Start faq.html page css============================*/     
+.faq-search {
+  padding: 10px 0px;
+} 
+.faq-search input[type="text"] {
+  padding: 10px 10px;
+  width: 65%;
+}    
+.faq-search input[type="button"] {
+  padding: 10px 15px;
+}    
+/*================================================End faq.html page css==============================*/    
+/*================================================Start index.html page css==========================*/ 
+.featured-service .featured-service-left {
+  margin-left: 0px;
+  padding-bottom: 0px;
+}
+.featured-service .full-img {
+  float: none;
+  width: 100%;
+}
+.featured-service .full-img img {
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+.featured-service .single-featured-service {
+  margin-bottom: 50px;
+  padding-left: 0px;
+  text-align: center;
+}
+.fact-counter {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.single-fact-counter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+ul.why-choose-us-facts {
+  margin-top: 50px;
+}
+.video-popup {
+  width: 100%;
+  padding: 70.5px 0;
+}
+.skills-left {
+  padding-bottom: 30px;
+}
+/*================================================End index.html page css=================================*/     
+/*================================================Start index2.html page css==============================*/    
+.accrodion-wrap {
+  margin-top: 50px;
+}
+.single-portfolio.span-3 {
+  width: 100%;
+}
+.single-portfolio.span-3 {
+  width: 100%;
+} 
+/*================================================End index2.html page css================================*/   
+/*================================================Start index3.html page css==============================*/ 
+.blogs.style-two.has-texture-2.section-padding {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.style-two .single-blog-post .content {
+  padding: 20px 10px 30px 10px;
+}
+footer.footer-v2 .footer-copy-box {
+  width: 300px;
+  margin: 0 auto;
+}
+.single-footer-box {
+  margin-bottom: 30px;
+}
+footer.footer-v2 .footer-copy-box p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.pull-right.designer {
+  width: 300px;
+  margin: 0 -25px;
+}
+.single-blog-post.company-news {
+  width: 300px;
+  margin: 0 auto;
+}
+.single-blog-post.company-news .img-holder img {
+  width: 300px;
+}
+.single-blog-post.company-news .content {
+  float: left;
+  padding: 15px;
+  width: 300px;
+}
+/*================================================End index3.html page css==============================*/   
+/*================================================Start index4.html page css============================*/    
+.about-me-info {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 50px;
+} 
+.about-me-address {
+  overflow: hidden;
+}
+.about-me-address li p {
+  width: 300px;
+}
+.about-me-address ul li {
+  line-height: 45px;
+  width: 300px;
+  float: left;
+  font-size: 16px;
+}
+.col-md-6.home-v4-skill-name {
+  padding-left: 15px;
+  padding-top: 38px;
+}
+.skill-left-part {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-top: 40px;
+  width: 300px;
+}
+.our-skills.home-v4-skill-area .skill-left-img {
+  float: none;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-right: 0;
+}
+.our-skills.home-v4-skill-area .skills-left-text {
+  overflow: hidden;
+  text-align: center;
+}
+.education-info {
+  margin-bottom: 30px;
+  padding-left: 0;
+  padding-right: 15px;
+}
+.education-info {
+  padding-left: 12px;
+  padding-right: 0;
+}
+.work-experience-left {
+  border-right: none;
+  padding-bottom: 10px;
+}
+/*================================================End index4.html page css===============================*/ 
+/*================================================Start portfolio2.html page css=========================*/ 
+.portfolio-filter li span {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #9b9b9b #9b9b9b #9b9b9b -moz-use-text-color;
+  border-image: none;
+  border-style: solid;
+  border-width: 0;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.2em;
+  padding: 0 30px;
+  text-transform: uppercase;
+}   
+.single-portfolio.span-4 {
+  width: 99.333%;
+}
+.single-portfolio.span-6 {
+  width: 100%;
+}
+/*================================================End portfolio2.html page css===========================*/    
+/*================================================Start pricing.html page css============================*/ 
+.our-price.section-padding.anim-5-all.gray-bg {
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+.single-price-box {
+  margin-bottom: 30px;
+}    
+/*================================================End pricing.html page css==============================*/     
+/*================================================Start services.html page css===========================*/ 
+.thm-btn.dark {
+  margin-bottom: 15px;
+}    
+/*================================================End services.html page css=============================*/    
+/*================================================Start services2.html page css==========================*/   
+.single-service-two {
+  padding: 0 15px 40px;
+} 
+.service-two-image-box {
+  padding-top: 50px;
+  padding-left: 15px;
+}
+/*================================================End services2.html page css============================*/  
+/*================================================Start team-1.html page css=============================*/    
+.team-page-1 .single-team-wrapper {
+  width: 100%;
+}  
+/*================================================End team-1.html page css===============================*/  
+    
+    
+.page-title.profile-title{
+  padding-left: 0;
+}
+
+.page-title.profile-title h5{
+  font-size: 14px;
+}
+.page-title.profile-title h5 span{
+  line-height: 1.4;
+} 
+
+.page-title.profile-title .profile-detail{
+  padding-left: 20px;
+} 
+
+.page-title.profile-title .profile-info .profile-head h1{
+  font-size: 22px;
+}
+
+.page-title.profile-title .profile-img img{
+  width: 70px;
+  height: 70px;
+}  
+    
+    
+    
+    
+    
+    
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /*======== 480px screen Styles ================================*/
+    
+/*================================================Start blog-details.html page css==========================*/        
+.single-post-page .main-content-box {
+  margin: 30px auto;
+  text-align: justify;
+  width: 450px;
+}    
+.single-post-page .img-caption-box .img-box {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 450px;
+}
+.single-post-page .img-caption-box .img-box img {
+  margin-bottom: 20px;
+}    
+.single-post-page .img-caption-box .text-box {
+  padding-left: 0;
+  width: 450px;
+  float: left;
+  overflow: hidden;
+}
+.pull-right .sidebar-wrapper {
+  padding-left: 0;
+  padding-top: 50px;
+}    
+.single-post-page .comment-form input {
+  margin-bottom: 20px;
+} 
+/*================================================End blog-details.html page css==========================*/     
+    
+/*================================================Start blog-left.html page css===========================*/    
+.pull-left .sidebar-wrapper {
+  padding-right: 50px;
+  padding-top: 50px;
+}   
+/*================================================End blog-left.html page css=============================*/
+/*================================================Start blog-right.html page css==========================*/     
+.pull-right .sidebar-wrapper {
+  padding-right: 50px;
+  padding-top: 50px;
+}    
+/*================================================End blog-right.html page css============================*/   
+/*================================================Start contact-1.html page css========================*/    
+.contact-info .content {
+  padding-left: 40px;
+}  
+/*================================================End contact-1.html page css========================*/  
+/*================================================Start index.html page css==========================*/       
+.video-popup {
+  width: 100%;
+  padding: 100px 0;
+}
+/*================================================End index.html page css============================*/
+/*================================================Start index2.html page css=========================*/      
+ 
+.single-portfolio.span-3 {
+  width: 50%;
+}
+.single-portfolio.span-3 {
+  width: 50%;
+} 
+/*================================================End index2.html page css============================*/     
+/*================================================Start index3.html page css==========================*/    
+footer.footer-v2 .footer-copy-box {
+  width: 450px;
+  margin: 0 auto;
+}    
+.pull-right.designer {
+  width: 450px;
+  margin: 0 -25px;
+} 
+
+/*================================================End index3.html page css===============================*/    
+/*================================================Start portfolio2.html page css=========================*/ 
+.single-portfolio.span-4 {
+  width: 49.333%;
+}
+.single-portfolio.span-6 {
+  width: 50%;
+}
+/*================================================End portfolio2.html page css============================*/    
+/*================================================Start pricing.html page css============================*/    
+.single-price-box {
+  margin: 0 20px 30px;
+} 
+/*================================================End pricing.html page css===================-==========*/    
+/*================================================Start services2.html page css==========================*/       
+.single-service-two {
+  padding: 0 15px 40px;
+  margin: 75px 30px 0;
+} 
+.single-service-two+.income {
+  margin: 0 30px;
+}   
+/*================================================End services2.html page css============================*/    
+/*================================================Start team-1.html page css=============================*/    
+.team-page-1 .single-team-wrapper {
+  width: 50%;
+}  
+/*================================================End team-1.html page css===============================*/ 
+/*================================================Start index4.html page css=============================*/    
+.about-me-address li p {
+  width: 140px;
+}
+.about-me-address ul li {
+  width: 450px;
+  float: left;
+  line-height: 60px;
+}
+.skill-left-part {
+  padding-right: 0px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.skill-left-part {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-top: 40px;
+  width: 450px;
+}
+.education-year {
+  padding-left: 40px;
+}
+.education-info {
+  padding-left: 12px;
+  padding-right: 40px;
+}
+/*================================================End index4.html page css===============================*/
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .modal-dialog {
+      width: 900px;
+      margin: 50px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials-style-two .owl-controls {top: -50px; }
+    header.header-v2 {background: #fff;padding: 10px 0;}
+  .main-menu-wrap .nav-toggler {padding: 20px 0;}
+  .portfolio-filter li {margin-bottom: 20px;}
+  .single-blog-post .img-holder {width: 100%;}
+  .footer-top {padding-left: 20%;padding-right: 20%;}
+  .single-fact-counter {padding: 0;}
+  .tab-content .caption .img-holder, .tab-content .caption .content {display: block;padding: 0;margin-bottom: 30px;}
+  .tab-content .caption .content {margin: 0;}
+  .bg-slider.banner-two .thm-btn {padding: 0 17px;}
+  .single-blog-post.company-news {width: 85%;}
+  .single-blog-post.company-news .img-holder {display: block;}
+  .single-blog-post.company-news .img-holder  img {width: 100%;}
+  .single-blog-post.company-news .content {width: 100%;}
+  .dialog.resource{width: 400px !important;margin-left: -200px;}
+
+}
+@media (max-width: 500px) {
+  ul.why-choose-us-facts li .icon-holder {margin-bottom: 15px;}
+  ul.why-choose-us-facts li .icon-holder, ul.why-choose-us-facts li .content {display: block;padding: 0;text-align: center;margin-left: auto;margin-right: auto;}
+  .accrodion .accrodion-content {padding-left: 30px;padding-right: 30px;}
+}
+
+@media (max-width: 375px) {
+  .footer-top {padding-left: 5%;padding-right: 5%;}
+}
+
+
+
+/* menu config styles */
+
+@media (min-width: 1025px) {
+  .hidden-bar .main-menu .dropdown a button {display: none; }
+}
+@media (max-width: 1024px) {
+  .hidden-bar .main-menu .dropdown a button {display: block; }
+  header .main-menu-wrap .nav-holder, .hidden-bar .main-menu .dropdown ul {display: none;}
+  .hidden-bar .main-menu .dropdown ul {position: static;visibility: visible;opacity: 1;transition: none;width: 100% !important;}
+  
+  header.inner-header  .main-menu-wrap .nav-toggler {display: inline-block; padding: 36px 0; }
+  header.header-v1 .main-menu-wrap .nav-toggler {display: inline-block; padding: 10px 0; }
+  header.stricky-fixed .main-menu-wrap .nav-toggler {display: inline-block; padding: 27px 0; }
+  header.header-v2.stricky-fixed .hidden-bar-opener {line-height: 20px;}
+  header.stricky-fixed.header-v3 .main-menu-wrap .nav-toggler {padding: 0;}
+  header.header-v3 .container-fluid {padding: 0;}
+}
+
+
+/* slider responsive styles */
+@media (max-width: 650px) {
+  .tp-caption {display: none !important;}
+}
+
+
+
+/* new responsive fix styles */
+
+
+@media (max-width: 1024px) {
+  ul.why-choose-us-facts li .content p br {display: none;}
+  .single-fact-counter p {font-size: 13px;}
+  .home-v5-title .sec-title p br {display: none;}
+}
+@media (max-width: 600px) {
+  .header-v1 {position: static; background: #232327; padding: 20px 0;}
+  .bg-slider .title {line-height: 70px;}
+}
+@media (max-width: 375px) {
+  .our-team .owl-controls {position: static;}
+  .bg-slider.banner-two p br {display: none;}
+  .accrodion .accrodion-header h4 {padding-right: 20px;}
+  .bg-slider.banner-two .thm-btn.clrd {margin-top: 17px; position: relative; right: 16px; } 
+  .single-fact-counter {padding-left: 0;}
+  .client-carousel .item {height: auto;}
+  .footer-logo {text-align: center;}
+  .col-lg-3.col-md-5.col-sm-4.col-xs-12.footer-sociallink  {text-align: center;}
+  .footer-top .left-contact .icon-holder, .footer-top .left-contact .content {display: block;text-align: center;}
+  .footer-top .left-contact .icon-holder {margin-left: auto;margin-right: auto;display: none;}
+  .hidden-bar {width: 295px;}
+}

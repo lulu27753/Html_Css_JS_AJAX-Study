@@ -1,0 +1,229 @@
+@media screen and(max-width: 768px){
+	#wrapper{
+		width: 768px;
+	}
+	#header{
+		width: 748px;
+	}
+	#content,#siderbar{
+		padding-right: 10px;
+		padding-left: 10px;
+		width: 728px;
+	}
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+    }
+
+/* wrap url's */
+
+pre {
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */
+	}
+#wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	width:96% ;/*960px*/
+}
+#header{
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 97.9166667%;/*940/960px*/
+	background:  url(img/buntingSlice3.png) 0 top repeat-x;
+}
+#logo{
+	display: block;
+	padding-top: 75px;
+	color: #0d0c0c;
+	text-transform: uppercase;
+	font: 48px Arial,sans-serif;
+}
+#logo span{
+	color: #dfdada;
+}
+#navigation{
+	width: 97.9166667%;/*940/960px*/
+	padding: 0 10px 25px 10px;
+	margin: 26px auto auto -10px;
+	background: url(img/atwiNavBg.png) 0 0 repeat-x;
+	border-bottom: 4px double #bfbfbf;
+}
+#navigation ul  li{
+	display: inline;
+}
+#navigation ul li a{
+	height: 42px;
+	line-height: 42px;
+	margin-right: 20px;
+	color: black;
+	font: 27px Arial,sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}/*header_End*/
+#siderbar{
+	float: left;
+	width:22.7083333% ;/*220/960px*/
+	margin: 58px 20px auto 10px;
+	border-right: 2px solid #e8e8e8;	
+}
+#siderbar h4{
+	margin-bottom: 20px;
+	font: 20px Arial,sans-serif;
+	text-transform: uppercase;
+}
+#siderbar .overHyped{
+	margin-top: 27px;
+}/*siderbar_End*/
+#content{
+	float: right;
+	width: 698px;
+	margin-top: 58px;
+	margin-right: 10px;
+}
+#content img{
+	float: left;
+	width: 202px;
+	height: 531px;
+	margin-top: -28px;
+}
+#content h1{
+	font: 38px Arial,sans-serif;
+	text-transform: uppercase;
+}
+#content h1 span{
+	display: block;
+	line-height: 40px;
+	font-size: 38px;
+	color: #757474;
+}
+#content p{
+	font-size: 24px;
+	line-height: 40px;
+	color: #757474;
+}
+#content a{
+
+	}/*content_End*/
+#footer{
+	clear: both;
+	float: left;
+	width: 97.9166667%;/*940/960px*/
+	margin: 20px 10px auto 10px;
+	padding-top: 33px;	
+	background:  url(img/buntingSlice3Invert.png) 0 bottom repeat-x;
+	border-top: 4px double #bfbfbf;
+}
+#footer p{
+	margin-bottom: 38px;
+	font: 13px Arial,sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #757474;
+}/*footer_End*/
+@media screen and (max-width: 768px) {
+	#wrapper,#header,#footer,#navigation {
+		width: 768px; 
+		margin: 0px;
+	}	
+	#logo { 
+		text-align:center; 
+	}
+	#navigation { 
+		padding-top: 20px;
+		text-align: center; 
+		background-image: none;
+		border: 4px double #bfbfbf; 
+	}
+	#navigation ul li a { 
+		background-color: #dedede; 
+		line-height: 60px; 
+		font-size: 40px; 
+	}
+	#content, #siderbar { 
+		margin-top: 20px; 
+		padding-right: 10px; 
+		padding-left: 10px; 
+		width: 728px;
+	}
+	.oscarMain { 
+		margin-right: 30px; 
+		margin-top: 0px; 
+		width: 150px; 
+		height: 394px; 
+	}
+	#siderbar { 
+		border-right: none; 
+		border-top: 2px solid #e8e8e8; 
+		padding-top: 20px; 
+		margin-bottom: 20px; 
+	}
+	.sideBlock { 
+		width: 46%; 
+		float: left; 
+	}
+	#siderbar .overHyped { 
+		margin-top: 0px; 
+		margin-left: 50px; 
+	}
+} 
